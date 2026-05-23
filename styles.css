@@ -7,6 +7,50 @@
    1. GOOGLE FONTS IMPORT
    ============================================================ */
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap');
+.creator-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 7px 16px;
+  background: rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  position: relative;
+  z-index: 101;
+}
+
+.creator-name {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--text-faint);
+  letter-spacing: 0.06em;
+  opacity: 0.7;
+}
+
+.creator-ig {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  opacity: 0.6;
+  letter-spacing: 0.04em;
+  transition: color 0.18s ease, opacity 0.18s ease;
+  text-decoration: none;
+}
+
+.creator-ig:hover {
+  color: #e1306c;
+  opacity: 1;
+}
+
+.creator-ig svg {
+  flex-shrink: 0;
+  opacity: 0.8;
+}
 
 /* ============================================================
    2. CSS CUSTOM PROPERTIES (DESIGN TOKENS)
