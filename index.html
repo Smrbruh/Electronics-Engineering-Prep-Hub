@@ -1,0 +1,2645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Electronics Engineering Prep Hub – a premium exam preparation and learning platform covering Fundamentals of Electrical and Electronic Engineering and Analog Electronics." />
+  <meta name="keywords" content="electronics, electrical engineering, Ohm's law, Kirchhoff, transistors, op-amp, semiconductors, analog, circuits, exam prep" />
+  <title>Electronics Engineering Prep Hub | Fundamentals & Analog Electronics Mastery</title>
+</head>
+<body data-theme="engineering" data-version="1.0">
+
+  <!-- ===================== SITE HEADER ===================== -->
+  <header id="site-header" role="banner">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-icon" aria-hidden="true">⚡</span>
+        <div class="brand-text">
+          <h1 class="site-title">Electronics Engineering Prep Hub</h1>
+          <p class="site-subtitle">Fundamentals &amp; Analog Electronics Mastery</p>
+        </div>
+      </div>
+      <div class="header-meta">
+        <span class="course-tag">Spring 2026</span>
+        <span class="course-tag">Prof. Aliya Nurmukhanbetova</span>
+        <span class="course-tag">10 Lectures</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== TOP NAV ===================== -->
+  <nav id="primary-nav" role="navigation" aria-label="Primary Navigation">
+    <ul class="nav-list">
+      <li><a href="#section-fundamentals">Section 1: Fundamentals</a></li>
+      <li><a href="#section-analog">Section 2: Analog Electronics</a></li>
+      <li><a href="#formulas-reference">Formula Reference</a></li>
+      <li><a href="#comparison-tables">Comparison Tables</a></li>
+      <li><a href="#exam-notes">Exam Notes</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===================== LAYOUT WRAPPER ===================== -->
+  <div class="layout-wrapper" id="app-root">
+
+    <!-- ===================== SIDEBAR ===================== -->
+    <aside id="sidebar" role="complementary" aria-label="Course Navigation">
+      <nav aria-label="Lecture Navigation">
+        <h2 class="sidebar-heading">Course Outline</h2>
+
+        <section class="sidebar-section" data-section="fundamentals">
+          <h3 class="sidebar-section-title">Section 1 — Fundamentals</h3>
+          <ul class="sidebar-nav-list">
+            <li><a href="#lecture-1" data-lecture="1">Lecture 1 — Components &amp; Symbols</a></li>
+            <li><a href="#lecture-2" data-lecture="2">Lecture 2 — Characteristics of Electricity</a></li>
+            <li><a href="#lecture-3" data-lecture="3">Lecture 3 — Laws of Electricity</a></li>
+            <li><a href="#lecture-4" data-lecture="4">Lecture 4 — Test Equipment</a></li>
+            <li><a href="#lecture-5" data-lecture="5">Lecture 5 — Circuit Boards &amp; Motors</a></li>
+          </ul>
+        </section>
+
+        <section class="sidebar-section" data-section="analog">
+          <h3 class="sidebar-section-title">Section 2 — Analog Electronics</h3>
+          <ul class="sidebar-nav-list">
+            <li><a href="#lecture-6" data-lecture="6">Lecture 6 — Semiconductors &amp; Diodes</a></li>
+            <li><a href="#lecture-7" data-lecture="7">Lecture 7 — Transistors</a></li>
+            <li><a href="#lecture-8" data-lecture="8">Lecture 8 — Small-Signal Amplifiers</a></li>
+            <li><a href="#lecture-9" data-lecture="9">Lecture 9 — Operational Amplifiers</a></li>
+            <li><a href="#lecture-10" data-lecture="10">Lecture 10 — Integrated Circuits</a></li>
+          </ul>
+        </section>
+
+        <section class="sidebar-section" data-section="resources">
+          <h3 class="sidebar-section-title">Quick Resources</h3>
+          <ul class="sidebar-nav-list">
+            <li><a href="#formulas-reference">All Formulas</a></li>
+            <li><a href="#comparison-tables">Comparison Tables</a></li>
+            <li><a href="#safety-hub">Safety Hub</a></li>
+            <li><a href="#exam-notes">Exam Notes</a></li>
+            <li><a href="#troubleshooting-hub">Troubleshooting</a></li>
+          </ul>
+        </section>
+
+        <section class="sidebar-section progress-section" data-section="progress">
+          <h3 class="sidebar-section-title">Progress Tracker</h3>
+          <div class="progress-tracker" data-total-lectures="10" data-completed="0" role="status" aria-live="polite">
+            <div class="progress-bar-container">
+              <div class="progress-bar" data-progress="0" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="progress-label"><span class="progress-count">0</span> of 10 lectures reviewed</p>
+          </div>
+        </section>
+      </nav>
+    </aside>
+
+    <!-- ===================== MAIN CONTENT ===================== -->
+    <main id="main-content" role="main">
+
+      <!-- ==================== SECTION 1 ==================== -->
+      <section id="section-fundamentals" class="course-section" data-section-number="1" aria-labelledby="sec1-heading">
+        <header class="section-header">
+          <div class="section-badge">Section 1</div>
+          <h2 id="sec1-heading" class="section-title">Fundamentals of Electrical and Electronic Engineering</h2>
+          <p class="section-intro">Build an unshakeable foundation in electrical theory, core components, circuit laws, and essential measurement tools. This section covers the complete landscape from electron physics to practical breadboard assembly.</p>
+        </header>
+
+        <!-- ======================== LECTURE 1 ======================== -->
+        <article id="lecture-1" class="lecture" data-lecture-number="1" data-status="not-started">
+          <header class="lecture-header">
+            <div class="lecture-badge">Lecture 1</div>
+            <h2 class="lecture-title">Introduction, Environment Setup &amp; Electronic Components</h2>
+            <p class="lecture-description">A foundational overview of the course, lab environment setup, a brief history of electronics from 1899 to today, and a complete introduction to all fundamental electronic components and their schematic symbols.</p>
+          </header>
+
+          <!-- History -->
+          <section class="topic-section" id="lec1-history" data-topic="history">
+            <details open>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Brief History of Electronics</h3>
+              </summary>
+              <div class="topic-body">
+                <p>Modern electronics traces its origins to 1899 when J. J. Thomson at the University of Cambridge discovered the electron, establishing the physical foundation for all electronic devices. Cathode rays, once thought to be waves, were revealed to be streams of negatively charged particles moving from cathode to anode under high voltage.</p>
+
+                <article class="timeline">
+                  <h4>Key Historical Milestones</h4>
+                  <ul class="timeline-list">
+                    <li><strong>1895–1905:</strong> Electron discovery (Thomson), X-rays, radioactivity, and early wireless experiments.</li>
+                    <li><strong>1901:</strong> Guglielmo Marconi received the first transatlantic wireless Morse-code signal from Cornwall, England to Newfoundland, Canada — proving radio waves travel beyond the horizon.</li>
+                    <li><strong>1906:</strong> Lee De Forest invented the Audion vacuum tube (later the triode): filament (cathode) + plate (anode) + control grid. A tiny grid voltage controlled a much larger current — the birth of amplification.</li>
+                    <li><strong>1906:</strong> Greenleaf W. Pickard demonstrated the crystal radio detector using galena and a "cat's whisker" wire — the first hint of semiconductor behavior.</li>
+                    <li><strong>1920:</strong> Station KDKA in Pittsburgh launched commercial radio broadcasting.</li>
+                    <li><strong>1946:</strong> ENIAC, the world's first large-scale electronic digital computer, was dedicated at the University of Pennsylvania.</li>
+                    <li><strong>December 1947:</strong> Bardeen, Brattain, and Shockley (Bell Labs) demonstrated the first transistor using germanium. Nobel Prize in Physics 1956.</li>
+                    <li><strong>1958:</strong> Jack Kilby (Texas Instruments) and Robert Noyce (Fairchild) independently developed the Integrated Circuit. Nobel Prize in Physics 2000.</li>
+                    <li><strong>1971:</strong> Intel introduced the 4004 microprocessor — 2,300 transistors with 10 μm features. Modern Xeon chips exceed 6 billion transistors at under 10 nm.</li>
+                  </ul>
+                </article>
+
+                <aside class="note-block" data-type="must-remember">
+                  <h4>Must Remember</h4>
+                  <p>The evolution follows: Vacuum Tube → Transistor → Integrated Circuit → Microprocessor. Each generation made electronics smaller, faster, cheaper, and more reliable.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Analog vs Digital -->
+          <section class="topic-section" id="lec1-analog-digital" data-topic="analog-digital">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Analog vs. Digital Electronics</h3>
+              </summary>
+              <div class="topic-body">
+                <p>All electronics falls into two fundamental categories that determine how signals are represented and processed.</p>
+
+                <div class="definition-block">
+                  <h4>Digital Electronics</h4>
+                  <p>Operates with a limited number of discrete states — almost always just two: LOW (0) and HIGH (1). Voltage ranges define these states:</p>
+                  <ul>
+                    <li>0 V to 0.4 V → LOW (binary 0)</li>
+                    <li>2.0 V to 5.0 V → HIGH (binary 1)</li>
+                  </ul>
+                  <p>A digital circuit treats 2 V and 4 V identically because both fall in the HIGH range. Examples: microprocessors, logic gates, counters, memory.</p>
+                </div>
+
+                <div class="definition-block">
+                  <h4>Analog Electronics</h4>
+                  <p>Responds to or produces outputs with a continuous range of values. A signal may vary between 0 V and 10 V and could be 1.5 V, 2.8 V, or 7.653 V — theoretically infinitely many possible levels. Examples: amplifiers, filters, oscillators, sensors.</p>
+                </div>
+
+                <section class="comparison-table-section">
+                  <h4>Analog vs Digital Signals — Comparison Table</h4>
+                  <table class="comparison-table" aria-label="Analog vs Digital Comparison">
+                    <thead>
+                      <tr>
+                        <th scope="col">Property</th>
+                        <th scope="col">Analog Signal</th>
+                        <th scope="col">Digital Signal</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Value range</td>
+                        <td>Continuous (infinite levels)</td>
+                        <td>Discrete (usually 0 and 1)</td>
+                      </tr>
+                      <tr>
+                        <td>Waveform shape</td>
+                        <td>Smooth (sine wave)</td>
+                        <td>Square ON/OFF pulses</td>
+                      </tr>
+                      <tr>
+                        <td>Noise sensitivity</td>
+                        <td>High</td>
+                        <td>Low</td>
+                      </tr>
+                      <tr>
+                        <td>Processing complexity</td>
+                        <td>Can be simpler for physical signals</td>
+                        <td>Complex logic, but very powerful</td>
+                      </tr>
+                      <tr>
+                        <td>Typical use</td>
+                        <td>Audio, RF, sensors, power</td>
+                        <td>Computers, phones, data storage</td>
+                      </tr>
+                      <tr>
+                        <td>Example</td>
+                        <td>Microphone output, thermometer voltage</td>
+                        <td>Binary data, clock signal, USB</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+
+                <aside class="formula-block" data-topic="adc">
+                  <h4>ADC Quantization Levels</h4>
+                  <p>When converting analog to digital, the number of discrete levels is:</p>
+                  <code class="formula">Levels = 2ⁿ</code>
+                  <p>where <strong>n</strong> is the number of bits. A 5-bit ADC gives 32 levels; an 8-bit ADC gives 256 levels; a 16-bit ADC gives 65,536 levels.</p>
+                </aside>
+
+                <aside class="note-block" data-type="exam">
+                  <h4>Exam Note</h4>
+                  <p>Know the difference between Circuit A (ADC: analog → digital), Circuit B (amplifier: small AC → larger AC), and Circuit C (rectifier/shaper: AC → pulses). These circuit types appear frequently in exams.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Schematic and Block Diagrams -->
+          <section class="topic-section" id="lec1-schematics" data-topic="schematics">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Schematic &amp; Block Diagrams</h3>
+              </summary>
+              <div class="topic-body">
+                <div class="definition-block">
+                  <h4>Schematic Diagram</h4>
+                  <p>Shows every individual component in a circuit and all interconnections using standardized symbols. Required for component-level troubleshooting — isolating and replacing a single defective resistor, capacitor, or IC.</p>
+                </div>
+                <div class="definition-block">
+                  <h4>Block Diagram</h4>
+                  <p>Shows all functional units of a system and how signals flow between them, without specifying individual components. Used for system-level understanding — for example, a power supply block diagram might show: Transformer → Rectifier → Filter → Regulator → Load.</p>
+                </div>
+                <aside class="note-block" data-type="tip">
+                  <h4>Engineering Tip</h4>
+                  <p>Always start troubleshooting from the block diagram to isolate the faulty subsystem, then use the schematic to pinpoint the bad component. Block first, then schematic.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Analog Circuit Functions -->
+          <section class="topic-section" id="lec1-analog-functions" data-topic="analog-functions">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Analog Circuit Functions</h3>
+              </summary>
+              <div class="topic-body">
+                <p>Analog circuits perform named operations on electrical signals (voltages or currents that carry information). A microphone converts voice into a small varying voltage called an audio signal. Each circuit type below is named for the operation it performs.</p>
+
+                <table class="reference-table" aria-label="Analog Circuit Functions">
+                  <thead>
+                    <tr>
+                      <th scope="col">Circuit Type</th>
+                      <th scope="col">Function</th>
+                      <th scope="col">Example Use</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Amplifier</td><td>Increases signal voltage, current, or power</td><td>Audio amplifier, RF amplifier</td></tr>
+                    <tr><td>Attenuator</td><td>Decreases signal level</td><td>Voltage divider, pad network</td></tr>
+                    <tr><td>Rectifier</td><td>Converts AC to DC</td><td>Power supply diode bridge</td></tr>
+                    <tr><td>Oscillator</td><td>Converts DC to AC (self-sustaining)</td><td>Clock generation, radio carrier</td></tr>
+                    <tr><td>Filter</td><td>Removes unwanted frequencies</td><td>Low-pass, high-pass, band-pass</td></tr>
+                    <tr><td>Comparator</td><td>Compares signal to reference voltage</td><td>Zero-crossing detector, ADC</td></tr>
+                    <tr><td>Modulator</td><td>Allows one signal to control another's amplitude/frequency/phase</td><td>AM/FM radio transmitter</td></tr>
+                    <tr><td>Demodulator / Detector</td><td>Recovers information from a modulated signal</td><td>AM/FM radio receiver</td></tr>
+                    <tr><td>Mixer</td><td>Produces sum and difference frequencies of two inputs</td><td>Superheterodyne radio</td></tr>
+                    <tr><td>Regulator</td><td>Holds voltage or current constant despite load changes</td><td>LM7805 voltage regulator</td></tr>
+                    <tr><td>Sensor/Transducer</td><td>Converts physical quantity into electrical signal</td><td>Thermistor, microphone, photodiode</td></tr>
+                    <tr><td>Timer</td><td>Controls or measures time intervals</td><td>555 timer IC</td></tr>
+                    <tr><td>Integrator</td><td>Sums signal over a time interval</td><td>Op-amp integrator circuit</td></tr>
+                    <tr><td>Differentiator</td><td>Responds to rate of signal change</td><td>High-pass filter, edge detector</td></tr>
+                    <tr><td>Multiplexer</td><td>Routes many signal sources to one output</td><td>Multi-channel data acquisition</td></tr>
+                    <tr><td>Demultiplexer</td><td>Routes one signal to many outputs</td><td>Address decoder, bus routing</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </details>
+          </section>
+
+          <!-- Resistors -->
+          <section class="topic-section" id="lec1-resistors" data-topic="resistors">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Resistors</h3>
+              </summary>
+              <div class="topic-body">
+                <p>A <strong>resistor</strong> is a passive electronic component that limits or controls the flow of electric current in a circuit. It is the most fundamental passive component in electronics. The unit of resistance is the <strong>Ohm (Ω)</strong>.</p>
+
+                <h4>What Resistors Do</h4>
+                <ul>
+                  <li>Reduce current flow (current limiting)</li>
+                  <li>Drop voltage across themselves (voltage division)</li>
+                  <li>Protect sensitive components (e.g., limiting current into an LED)</li>
+                  <li>Control signal levels and set bias points</li>
+                  <li>Convert current into measurable voltage (shunt resistors)</li>
+                </ul>
+
+                <h4>Types of Fixed Resistors</h4>
+                <table class="reference-table" aria-label="Resistor Types">
+                  <thead>
+                    <tr>
+                      <th scope="col">Type</th>
+                      <th scope="col">Construction</th>
+                      <th scope="col">Key Characteristic</th>
+                      <th scope="col">Application</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Carbon Composition</td>
+                      <td>Carbon dust or graphite paste</td>
+                      <td>Low cost, high noise</td>
+                      <td>Hobby circuits, audio vintage gear</td>
+                    </tr>
+                    <tr>
+                      <td>Metal Film</td>
+                      <td>Thin metal film on ceramic rod</td>
+                      <td>High precision, low noise</td>
+                      <td>Precision amplifiers, instrumentation</td>
+                    </tr>
+                    <tr>
+                      <td>Metal Oxide Film</td>
+                      <td>Metal oxide on ceramic</td>
+                      <td>Good temperature stability</td>
+                      <td>Power supplies, industrial equipment</td>
+                    </tr>
+                    <tr>
+                      <td>Wirewound</td>
+                      <td>Resistance wire on ceramic core</td>
+                      <td>Very high power handling</td>
+                      <td>Power electronics, motor drives</td>
+                    </tr>
+                    <tr>
+                      <td>SMD (Surface Mount)</td>
+                      <td>Thick/thin film on ceramic chip</td>
+                      <td>Tiny, suited for PCB reflow</td>
+                      <td>Consumer electronics, mobile devices</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <h4>Variable Resistors</h4>
+
+                <article class="component-card" id="potentiometer">
+                  <h4>Potentiometer (3-Terminal)</h4>
+                  <p>A potentiometer has three terminals: Terminal 1 (one end of resistive track), Terminal 2 — the movable wiper, and Terminal 3 (other end of resistive track). Turning the wiper changes the ratio of R1 to R2 along the track.</p>
+                  <p>Function: Acts as a <strong>voltage divider</strong>. Output voltage is proportional to wiper position.</p>
+                  <div class="formula-block">
+                    <code class="formula">Vout = Vin × R₂ / (R₁ + R₂)</code>
+                  </div>
+                  <p><strong>Applications:</strong> Audio volume control, brightness/contrast adjustment, calibration circuits, joystick position sensing.</p>
+                </article>
+
+                <article class="component-card" id="rheostat">
+                  <h4>Rheostat (2-Terminal)</h4>
+                  <p>A rheostat uses only two of the potentiometer's three terminals — one end and the wiper — making it a simple variable series resistance. Rheostats typically handle higher currents than potentiometers.</p>
+                  <p><strong>Applications:</strong> Motor speed control, light dimmers, heating element control.</p>
+                </article>
+
+                <aside class="warning-block" data-type="safety">
+                  <h4>Safety Warning</h4>
+                  <p>Never exceed a resistor's power rating (Watts). An under-rated resistor will overheat, smoke, and possibly catch fire. Always derate by at least 50% in continuous-duty applications (e.g., use a 1 W resistor where calculations show 0.5 W is needed).</p>
+                </aside>
+
+                <aside class="note-block" data-type="troubleshooting">
+                  <h4>Troubleshooting — Resistors</h4>
+                  <ul>
+                    <li>Measure resistance with the component powered off and at least one leg lifted from the circuit — in-circuit measurement gives false readings due to parallel paths.</li>
+                    <li>A burned or discolored resistor almost certainly has the wrong power rating for the application.</li>
+                    <li>An open-circuit reading (OL/overload on DMM) means the resistor has failed open.</li>
+                    <li>A near-zero reading means the resistor has failed short — rare but possible with wirewound types.</li>
+                  </ul>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Capacitors -->
+          <section class="topic-section" id="lec1-capacitors" data-topic="capacitors">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Capacitors</h3>
+              </summary>
+              <div class="topic-body">
+                <p>A <strong>capacitor</strong> is a passive electronic component that stores electrical energy in an electric field between two metal plates separated by an insulating material called the <strong>dielectric</strong>. The unit of capacitance is the <strong>Farad (F)</strong>.</p>
+
+                <h4>What Capacitors Do</h4>
+                <ul>
+                  <li>Store and release energy quickly (energy buffer)</li>
+                  <li>Block DC while allowing AC to pass (coupling)</li>
+                  <li>Smooth rectified voltage (filter capacitor in power supplies)</li>
+                  <li>Form timing circuits with resistors (RC networks)</li>
+                  <li>Tune resonant circuits with inductors (LC tanks)</li>
+                  <li>Bypass high-frequency noise to ground (decoupling)</li>
+                </ul>
+
+                <h4>Types of Capacitors</h4>
+                <table class="reference-table" aria-label="Capacitor Types">
+                  <thead>
+                    <tr>
+                      <th scope="col">Type</th>
+                      <th scope="col">Key Property</th>
+                      <th scope="col">Polarity</th>
+                      <th scope="col">Typical Range</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Electrolytic (Aluminum)</td>
+                      <td>High capacitance, lower voltage</td>
+                      <td>Polarized (+/−)</td>
+                      <td>1 µF – 100,000 µF</td>
+                    </tr>
+                    <tr>
+                      <td>Ceramic (MLCC)</td>
+                      <td>Small, stable, high frequency</td>
+                      <td>Non-polarized</td>
+                      <td>1 pF – 100 µF</td>
+                    </tr>
+                    <tr>
+                      <td>Film (Polyester/Polypropylene)</td>
+                      <td>Stable, low loss, precision</td>
+                      <td>Non-polarized</td>
+                      <td>1 nF – 100 µF</td>
+                    </tr>
+                    <tr>
+                      <td>Tantalum</td>
+                      <td>Compact, stable, higher cost</td>
+                      <td>Polarized (+/−)</td>
+                      <td>0.1 µF – 1000 µF</td>
+                    </tr>
+                    <tr>
+                      <td>Variable (Trimmer)</td>
+                      <td>Adjustable capacitance</td>
+                      <td>Non-polarized</td>
+                      <td>1 pF – 100 pF</td>
+                    </tr>
+                    <tr>
+                      <td>Supercapacitor (EDLC)</td>
+                      <td>Extremely high capacitance, low voltage</td>
+                      <td>Polarized</td>
+                      <td>0.1 F – 3000 F</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <div class="formula-block">
+                  <h4>Key Capacitor Formulas</h4>
+                  <ul class="formula-list">
+                    <li><code>Q = C × V</code> — Charge stored = Capacitance × Voltage</li>
+                    <li><code>E = ½ × C × V²</code> — Energy stored in joules</li>
+                    <li><code>Xc = 1 / (2π × f × C)</code> — Capacitive reactance (opposition to AC)</li>
+                    <li><code>τ = R × C</code> — RC time constant (time to charge to 63.2%)</li>
+                    <li>Series: <code>1/C_total = 1/C₁ + 1/C₂ + …</code></li>
+                    <li>Parallel: <code>C_total = C₁ + C₂ + …</code></li>
+                  </ul>
+                </div>
+
+                <aside class="warning-block" data-type="safety">
+                  <h4>Safety Warning — Capacitors</h4>
+                  <p>Large electrolytic capacitors in power supplies can retain dangerous voltage (hundreds of volts) for minutes or even hours after power is removed. Always discharge before touching. Connecting a polarized capacitor backward can cause it to rupture or explode violently.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Inductors -->
+          <section class="topic-section" id="lec1-inductors" data-topic="inductors">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Inductors &amp; Transformers</h3>
+              </summary>
+              <div class="topic-body">
+                <p>An <strong>inductor</strong> is a passive component that stores energy in a magnetic field when current flows through it. Typically a coil of wire, sometimes wound on a ferrite core. The unit of inductance is the <strong>Henry (H)</strong>.</p>
+
+                <h4>Key Inductor Behavior</h4>
+                <ul>
+                  <li>Opposes sudden changes in current (inductive reactance)</li>
+                  <li>When the switch closes: current rises gradually (not instantly)</li>
+                  <li>When the switch opens: inductor generates a high-voltage spike to sustain current — called <strong>inductive kickback</strong></li>
+                  <li>Passes DC, opposes AC (opposite of capacitor behavior)</li>
+                </ul>
+
+                <div class="formula-block">
+                  <h4>Inductor Formulas</h4>
+                  <ul class="formula-list">
+                    <li><code>V = L × dI/dt</code> — Voltage across inductor = Inductance × Rate of current change</li>
+                    <li><code>E = ½ × L × I²</code> — Energy stored in magnetic field</li>
+                    <li><code>X_L = 2π × f × L</code> — Inductive reactance (increases with frequency)</li>
+                    <li>Series: <code>L_total = L₁ + L₂ + …</code></li>
+                    <li>Parallel: <code>1/L_total = 1/L₁ + 1/L₂ + …</code></li>
+                  </ul>
+                </div>
+
+                <article class="component-card" id="transformer">
+                  <h4>Transformers</h4>
+                  <p>A <strong>transformer</strong> transfers electrical energy between two circuits using electromagnetic induction. It can step voltage up or down. It works ONLY with AC — alternating current creates the changing magnetic field required.</p>
+                  <p><strong>Parts:</strong> Primary coil (input), Secondary coil (output), Magnetic core (iron or ferrite).</p>
+                  <div class="formula-block">
+                    <code class="formula">Vs / Vp = Ns / Np = Ip / Is</code>
+                    <p>Where V = voltage, N = number of turns, I = current. p = primary, s = secondary.</p>
+                  </div>
+                  <p><strong>Types:</strong> Step-up (Ns &gt; Np, voltage increases), Step-down (Ns &lt; Np, voltage decreases), Current Transformer (CT — measures high currents safely), Voltage Transformer (VT/PT — measures high voltages safely).</p>
+                </article>
+
+                <aside class="warning-block" data-type="safety">
+                  <h4>Inductive Kickback Warning</h4>
+                  <p>Always place a flyback diode (freewheeling diode) in parallel with inductive loads (relays, motors, solenoids). When power is cut, the collapsing magnetic field produces a voltage spike of hundreds of volts that can destroy transistors and MOSFETs without protection.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Diodes -->
+          <section class="topic-section" id="lec1-diodes-intro" data-topic="diodes-intro">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Diodes — Introduction</h3>
+              </summary>
+              <div class="topic-body">
+                <p>A <strong>diode</strong> is an active semiconductor device with two terminals — <strong>Anode (A)</strong> and <strong>Cathode (K)</strong>. Its primary function is to allow current to flow in only one direction (anode → cathode) while blocking reverse flow.</p>
+
+                <h4>Types of Diodes</h4>
+                <table class="reference-table" aria-label="Diode Types">
+                  <thead>
+                    <tr>
+                      <th scope="col">Type</th>
+                      <th scope="col">Symbol ID</th>
+                      <th scope="col">Key Feature</th>
+                      <th scope="col">Application</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Rectifier Diode</td><td>1N4007</td><td>Converts AC to DC; ~0.7 V drop</td><td>Power supplies, bridge rectifiers</td></tr>
+                    <tr><td>Schottky Diode</td><td>1N5819</td><td>Low forward drop (~0.3 V), fast switching</td><td>High-frequency, switch-mode supplies</td></tr>
+                    <tr><td>Zener Diode</td><td>1N4733</td><td>Operates in reverse breakdown at fixed voltage</td><td>Voltage regulation, reference circuits</td></tr>
+                    <tr><td>LED</td><td>Various</td><td>Emits light when forward biased</td><td>Indicators, displays, lighting, remote controls</td></tr>
+                    <tr><td>Photodiode</td><td>Various</td><td>Converts light into electrical current</td><td>Optical sensors, fiber optic receivers</td></tr>
+                    <tr><td>TVS Diode</td><td>Various</td><td>Absorbs transient voltage spikes</td><td>ESD protection, surge suppression</td></tr>
+                    <tr><td>Varactor Diode</td><td>Various</td><td>Voltage-controlled capacitance</td><td>VCO tuning circuits, RF</td></tr>
+                  </tbody>
+                </table>
+
+                <aside class="note-block" data-type="exam">
+                  <h4>Exam Note</h4>
+                  <p>The most important datasheet value for measuring a diode is its <strong>forward voltage drop (Vf)</strong> in volts. Silicon diodes: ~0.6–0.7 V. Schottky: ~0.2–0.4 V. LEDs: 1.8–3.5 V depending on color.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Transistors -->
+          <section class="topic-section" id="lec1-transistors-intro" data-topic="transistors-intro">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Transistors — Introduction</h3>
+              </summary>
+              <div class="topic-body">
+                <p>A <strong>transistor</strong> is a semiconductor device used to amplify, switch, or control electronic signals. It is the fundamental building block of all modern digital and analog electronics. Invented at Bell Labs in December 1947.</p>
+
+                <h4>Main Transistor Types</h4>
+                <ul>
+                  <li><strong>BJT (Bipolar Junction Transistor):</strong> Terminals — Emitter, Base, Collector. Current-controlled device. NPN (most common) or PNP. Used in amplifiers and switching.</li>
+                  <li><strong>MOSFET (Metal-Oxide-Semiconductor FET):</strong> Terminals — Source, Drain, Gate. Voltage-controlled device. Extremely common in digital and power electronics.</li>
+                  <li><strong>JFET:</strong> Junction FET, used in low-noise input stages.</li>
+                  <li><strong>IGBT:</strong> Combines MOSFET and BJT features. Used in motor drives and inverters.</li>
+                  <li><strong>Darlington Pair:</strong> Two BJTs cascaded for very high current gain.</li>
+                  <li><strong>Phototransistor:</strong> Light-controlled transistor for optical applications.</li>
+                </ul>
+
+                <aside class="note-block" data-type="must-remember">
+                  <h4>Must Remember</h4>
+                  <p>BJT = current-controlled. MOSFET = voltage-controlled. Both can amplify and switch, but MOSFETs are preferred in digital circuits and power electronics due to high input impedance and fast switching speed.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Integrated Circuits Intro -->
+          <section class="topic-section" id="lec1-ic-intro" data-topic="ic-intro">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Integrated Circuits — Introduction</h3>
+              </summary>
+              <div class="topic-body">
+                <p>An <strong>Integrated Circuit (IC)</strong> is a miniaturized electronic circuit fabricated on a single semiconductor substrate (usually silicon). It combines transistors, resistors, capacitors, and diodes into one tiny package, dramatically reducing size, cost, and power consumption.</p>
+
+                <h4>IC Classification</h4>
+                <ul>
+                  <li><strong>Analog ICs:</strong> Signal amplification and processing (op-amps, voltage regulators, comparators).</li>
+                  <li><strong>Digital ICs:</strong> Logic operations (microprocessors, memory, logic gates).</li>
+                  <li><strong>Mixed-Signal ICs:</strong> Combine analog and digital (ADCs, DACs, microcontrollers with ADC peripherals).</li>
+                </ul>
+
+                <p><strong>Common applications:</strong> Computers, smartphones, communication systems, audio/video equipment, control and automation systems, medical devices, automotive electronics.</p>
+
+                <aside class="note-block" data-type="historical">
+                  <h4>Historical Context</h4>
+                  <p>The Intel 4004 (1971) had 2,300 transistors at 10 μm feature size. Modern processors contain over 6 billion transistors at sub-10 nm. Moore's Law predicted transistor count doubles roughly every two years — a trend that held for over 50 years.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Summary Block Lecture 1 -->
+          <aside class="quick-summary" id="lec1-summary" data-lecture="1">
+            <h3>Quick Summary — Lecture 1</h3>
+            <ul>
+              <li>Electronics evolved from vacuum tubes (1906) → transistors (1947) → ICs (1958) → microprocessors (1971).</li>
+              <li>Digital = discrete levels (0 and 1). Analog = continuous range of values.</li>
+              <li>Passive components: Resistors (limit current), Capacitors (store charge), Inductors (store magnetic energy).</li>
+              <li>Active components: Diodes (one-way current), Transistors (amplify/switch), ICs (complex functions on one chip).</li>
+              <li>Schematics show individual components; block diagrams show system functions.</li>
+            </ul>
+          </aside>
+        </article>
+
+        <!-- ======================== LECTURE 2 ======================== -->
+        <article id="lecture-2" class="lecture" data-lecture-number="2" data-status="not-started">
+          <header class="lecture-header">
+            <div class="lecture-badge">Lecture 2</div>
+            <h2 class="lecture-title">Characteristics of Electricity: Voltage, Current, Resistance, AC &amp; DC, Conductance, Power</h2>
+            <p class="lecture-description">A deep dive into the fundamental electrical quantities that govern every circuit. Understanding these characteristics is the prerequisite for all circuit analysis.</p>
+          </header>
+
+          <!-- Electricity Fundamentals -->
+          <section class="topic-section" id="lec2-electricity" data-topic="electricity-basics">
+            <details open>
+              <summary class="topic-summary">
+                <h3 class="topic-title">What is Electricity?</h3>
+              </summary>
+              <div class="topic-body">
+                <p>Electricity is energy carried by moving electric charges. When there is a difference in electric charge between two points, electrons (tiny negatively charged particles) move through a conductor to equalize it. This movement of charge is what we call electric current.</p>
+
+                <h4>Why Electricity Matters to Engineers</h4>
+                <ul>
+                  <li><strong>Does useful work:</strong> Converts to motion (motors), heat (heaters), and light (LEDs, lamps).</li>
+                  <li><strong>Efficient transmission:</strong> Can travel long distances through wires with minimal loss at high voltage — one power plant supplies entire cities.</li>
+                  <li><strong>Enables communication and technology:</strong> Computers, phones, radio, radar, medical instruments all rely on controlled electrical signals.</li>
+                </ul>
+
+                <aside class="note-block" data-type="engineering">
+                  <h4>Historical Engineering Note</h4>
+                  <p>The first major U.S. hydroelectric plant was built at Niagara Falls using Westinghouse and Nikola Tesla's AC system. This proved AC could be transmitted efficiently over long distances — launching the Second Industrial Revolution and the age of modern electrical power distribution.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Voltage -->
+          <section class="topic-section" id="lec2-voltage" data-topic="voltage">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Voltage (Electric Potential)</h3>
+              </summary>
+              <div class="topic-body">
+                <p><strong>Voltage</strong> (also called electric potential difference, electromotive force, or EMF) is the energy available to move electric charges between two points. Think of it as electrical pressure — the higher the voltage, the stronger the push on electrons.</p>
+
+                <div class="formula-block">
+                  <h4>Voltage Formula</h4>
+                  <code class="formula">V = W / Q</code>
+                  <p>Where: V = voltage (volts, V) | W = energy/work (joules, J) | Q = electric charge (coulombs, C)</p>
+                  <p><strong>1 Volt = 1 Joule per Coulomb</strong> — one volt delivers one joule of energy to every coulomb of charge passing through.</p>
+                </div>
+
+                <h4>Important Concepts</h4>
+                <ul>
+                  <li>Voltage is always measured <em>between two points</em> — it is a differential quantity, never absolute.</li>
+                  <li>We choose a <strong>reference point called Ground (0 V)</strong> to define all other node voltages.</li>
+                  <li>Node voltage: voltage at a point relative to ground (e.g., Va = 10 V, Vb = 5 V).</li>
+                  <li>Voltage between two nodes: <code>Vab = Va − Vb = 10 − 5 = 5 V</code></li>
+                </ul>
+
+                <h4>Electric Field and Voltage</h4>
+                <p>An electric field exists wherever charges create a force on other charges. The field points from positive (high potential) to negative (low potential). Between capacitor plates, the field is uniform. The electric field is the negative gradient of electric potential — stronger fields mean voltage changes more rapidly with distance. Units: V/m (volts per meter) or N/C (newtons per coulomb).</p>
+
+                <aside class="note-block" data-type="exam">
+                  <h4>Exam Note</h4>
+                  <p>Remember: there is NO absolute voltage. Voltage only has meaning between two points. On exams, "voltage at node A" always means voltage at A relative to a specified reference, usually ground.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Current -->
+          <section class="topic-section" id="lec2-current" data-topic="current">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Electric Current</h3>
+              </summary>
+              <div class="topic-body">
+                <p><strong>Electric current (I)</strong> is the flow of electric charge through a conductor. Current is measured in <strong>Amperes (A)</strong>. 1 ampere equals 1 coulomb of charge passing a point per second.</p>
+
+                <div class="formula-block">
+                  <h4>Current Formula</h4>
+                  <code class="formula">I = Q / t</code>
+                  <p>Where: I = current (amperes, A) | Q = charge (coulombs, C) | t = time (seconds, s)</p>
+                  <p>One coulomb = 6.238792 × 10¹⁸ electrons.</p>
+                </div>
+
+                <h4>Conventional Current vs Electron Flow</h4>
+                <table class="reference-table" aria-label="Current Direction">
+                  <thead>
+                    <tr>
+                      <th scope="col">Type</th>
+                      <th scope="col">Direction</th>
+                      <th scope="col">Note</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Conventional Current (I)</td>
+                      <td>+ terminal → − terminal (high to low potential)</td>
+                      <td>Used in all circuit analysis and schematics</td>
+                    </tr>
+                    <tr>
+                      <td>Electron Flow</td>
+                      <td>− terminal → + terminal (low to high potential)</td>
+                      <td>Physical reality in metal conductors</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>The conventional direction was defined before electrons were discovered. Engineers kept it for consistency. <strong>Always use conventional current direction in circuit analysis.</strong></p>
+
+                <aside class="note-block" data-type="analogy">
+                  <h4>Useful Analogy</h4>
+                  <p>Electrical current behaves like water flow. Voltage is like water pressure — it drives the flow. Current is the flow rate (liters per second). Resistance is like pipe narrowness — it restricts flow. More pressure (voltage) → more flow (current).</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Resistance and Conductance -->
+          <section class="topic-section" id="lec2-resistance" data-topic="resistance">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Resistance &amp; Conductance</h3>
+              </summary>
+              <div class="topic-body">
+                <p><strong>Resistance (R)</strong> is a material's opposition to the flow of electric current. All real conductors have some resistance. Unit: <strong>Ohm (Ω)</strong>.</p>
+
+                <h4>Conductors vs Insulators</h4>
+                <ul>
+                  <li><strong>Conductors</strong> (copper, aluminum, gold, silver): One loosely bound valence electron per atom that moves freely — low resistance. Copper is the most widely used conductor in electronics wiring.</li>
+                  <li><strong>Insulators</strong> (rubber, glass, plastic, air): Tightly bound outer electrons, full valence bands, no free electrons — very high resistance.</li>
+                  <li><strong>Semiconductors</strong> (silicon, germanium): Resistance between conductors and insulators; can be controlled by doping or electric fields — the basis for diodes and transistors.</li>
+                </ul>
+
+                <div class="formula-block">
+                  <h4>Conductance</h4>
+                  <code class="formula">G = 1 / R</code>
+                  <p>Conductance (G) measures how easily current flows. Unit: <strong>Siemens (S)</strong> (also called mhos, ℧). High conductance = low resistance = easy current flow.</p>
+                  <p>In parallel circuits, total conductance ADDS: <code>G_total = G₁ + G₂ + G₃…</code></p>
+                  <p>This makes parallel analysis easier — adding more branches always increases total conductance (lowers total resistance).</p>
+                </div>
+
+                <h4>Electrical-Mechanical Analogy</h4>
+                <table class="reference-table" aria-label="Domain Analogies">
+                  <thead>
+                    <tr>
+                      <th scope="col">Property</th>
+                      <th scope="col">Electrical</th>
+                      <th scope="col">Fluid (Hydraulic)</th>
+                      <th scope="col">Thermal</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Driving Potential</td><td>Voltage (V)</td><td>Pressure (Pa)</td><td>Temperature (°C)</td></tr>
+                    <tr><td>Flowing Quantity</td><td>Charge (C)</td><td>Fluid (liquid/gas)</td><td>Heat energy (J)</td></tr>
+                    <tr><td>Flow Rate</td><td>Current (A)</td><td>Flow rate (L/s)</td><td>Heat flux (W)</td></tr>
+                    <tr><td>Opposition</td><td>Resistance (Ω)</td><td>Pipe friction</td><td>Thermal resistance</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </details>
+          </section>
+
+          <!-- AC and DC -->
+          <section class="topic-section" id="lec2-ac-dc" data-topic="ac-dc">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">AC and DC — Alternating and Direct Current</h3>
+              </summary>
+              <div class="topic-body">
+                <div class="definition-block">
+                  <h4>DC — Direct Current</h4>
+                  <p>Current flows in only one direction. Voltage remains constant over time. Sources: batteries, solar cells, rectified power supplies. Uses: mobile phones, laptops, electronic circuits.</p>
+                </div>
+
+                <div class="definition-block">
+                  <h4>AC — Alternating Current</h4>
+                  <p>Current periodically reverses direction. Voltage and current follow a sine wave pattern. Generated by power stations. Household electricity (120 V / 60 Hz in North America; 230 V / 50 Hz in Europe).</p>
+                </div>
+
+                <h4>DC Bias on AC Signals</h4>
+                <p>A DC voltage added to an AC signal causes the entire waveform to shift upward or downward from the 0 V reference — called <strong>DC offset</strong> or <strong>DC bias</strong>. Formula:</p>
+                <div class="formula-block">
+                  <code class="formula">V(t) = V_DC + V_AC(t)</code>
+                </div>
+                <p>Positive DC bias: waveform shifts above 0 V axis. Negative DC bias: waveform shifts below 0 V axis. Capacitors are used to remove the DC component and pass only the AC signal (AC coupling).</p>
+
+                <h4>Electrical Waveforms</h4>
+                <table class="reference-table" aria-label="Waveform Types">
+                  <thead>
+                    <tr>
+                      <th scope="col">Waveform</th>
+                      <th scope="col">Shape</th>
+                      <th scope="col">Key Property</th>
+                      <th scope="col">Applications</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Sine Wave</td><td>Smooth continuous curve</td><td>Fundamental AC form; defined by amplitude, frequency, phase</td><td>Power grid, audio, RF</td></tr>
+                    <tr><td>Square Wave</td><td>Alternating high/low</td><td>50% duty cycle; rich in odd harmonics</td><td>Digital clocks, PWM</td></tr>
+                    <tr><td>Rectangular Wave</td><td>Unequal high/low durations</td><td>Duty cycle ≠ 50%; used for PWM power control</td><td>Motor speed control, PWM</td></tr>
+                    <tr><td>Triangle Wave</td><td>Linear ramp up/down</td><td>Symmetrical ramp; 50% duty cycle</td><td>Function generators, VCO</td></tr>
+                    <tr><td>Sawtooth Wave</td><td>Slow rise, fast fall (or vice versa)</td><td>Rich in harmonics including even; used in music synthesis</td><td>Oscilloscopes, synthesizers</td></tr>
+                    <tr><td>Pulse / Trigger</td><td>Very narrow spike</td><td>Very short mark-to-space ratio; triggers other circuits</td><td>Thyristor triggers, timers, counters</td></tr>
+                  </tbody>
+                </table>
+
+                <div class="formula-block">
+                  <h4>Sinusoidal Waveform Formulas</h4>
+                  <ul class="formula-list">
+                    <li><code>v(t) = V_peak × sin(ωt + φ)</code> — General sine wave expression</li>
+                    <li><code>ω = 2πf</code> — Angular frequency (radians/second)</li>
+                    <li><code>f = 1/T</code> — Frequency = 1 / Period</li>
+                    <li><code>T = 1/f</code> — Period (time for one complete cycle)</li>
+                    <li><code>V_RMS = V_peak / √2 ≈ 0.707 × V_peak</code> — RMS voltage (effective value for power)</li>
+                    <li><code>V_avg = 0.637 × V_peak</code> — Average value of a half-wave</li>
+                    <li>Duty cycle (square wave) = t_on / T × 100%</li>
+                  </ul>
+                </div>
+
+                <aside class="note-block" data-type="must-remember">
+                  <h4>Must Remember — RMS</h4>
+                  <p>RMS (Root Mean Square) is the effective value of AC voltage or current. An AC source of V_RMS = 10 V delivers the same power to a resistor as a 10 V DC source. The household "120 V" is an RMS value — the actual peak is 120 × √2 ≈ 170 V.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Power -->
+          <section class="topic-section" id="lec2-power" data-topic="power">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Electrical Power &amp; Energy</h3>
+              </summary>
+              <div class="topic-body">
+                <p><strong>Power (P)</strong> is the rate at which energy is used or transferred. Unit: <strong>Watt (W)</strong>. 1 Watt = 1 Joule per second. Understanding power is essential for component selection, heat management, and energy cost calculations.</p>
+
+                <div class="formula-block">
+                  <h4>Power Formulas</h4>
+                  <ul class="formula-list">
+                    <li><code>P = V × I</code> — Basic power formula</li>
+                    <li><code>P = I² × R</code> — Power from current and resistance (Joule heating)</li>
+                    <li><code>P = V² / R</code> — Power from voltage and resistance</li>
+                    <li><code>W = P × t</code> — Energy = Power × Time (joules)</li>
+                    <li><code>kWh = kW × hours</code> — Electrical energy billing unit</li>
+                    <li>Battery life: <code>t = Capacity (Ah) / Current (A)</code></li>
+                  </ul>
+                </div>
+
+                <h4>How Components Interact with Energy</h4>
+                <ul>
+                  <li><strong>Supply:</strong> Battery, generator — provides energy to circuit.</li>
+                  <li><strong>Store:</strong> Capacitor (electric field), Inductor (magnetic field) — temporarily hold energy.</li>
+                  <li><strong>Dissipate:</strong> Resistor — converts electrical energy to heat (Joule heating).</li>
+                  <li><strong>Transform/Transfer:</strong> Motor (electrical → mechanical), Transformer (AC to AC at different voltage), Speaker (electrical → sound).</li>
+                </ul>
+
+                <aside class="note-block" data-type="exam">
+                  <h4>Passive Sign Convention</h4>
+                  <p>For a component, if current enters the positive terminal, power is being absorbed (positive P). If current leaves the positive terminal, power is being supplied (negative P). The sum of all power in a closed circuit = 0 (conservation of energy).</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- RC Circuit -->
+          <section class="topic-section" id="lec2-rc-circuit" data-topic="rc-circuit">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">RC Circuits — Coupling and Filtering</h3>
+              </summary>
+              <div class="topic-body">
+                <p>RC circuits combine resistors and capacitors for filtering, coupling, and timing. A critical concept is <strong>capacitive reactance</strong>:</p>
+                <div class="formula-block">
+                  <code class="formula">X_C = 1 / (2π × f × C)</code>
+                  <p>At low frequency: X_C is large — capacitor blocks the signal. At high frequency: X_C is small — capacitor passes the signal nearly unimpeded.</p>
+                </div>
+                <h4>Typical RC Circuit Roles</h4>
+                <ul>
+                  <li>R1, R2 — Create a DC voltage divider to bias a transistor or amplifier stage.</li>
+                  <li>C1 — Coupling capacitor: passes AC signal into the circuit while blocking the DC bias from the source.</li>
+                  <li>C2 — Coupling capacitor: passes AC signal to the output while blocking DC from the stage.</li>
+                  <li>R3 — Input resistor limiting signal current.</li>
+                  <li>R4 — Load resistor at the output.</li>
+                </ul>
+                <p class="engineering-rule"><strong>Engineering Rule: Resistor = controls current. Capacitor = passes AC, blocks DC.</strong></p>
+              </div>
+            </details>
+          </section>
+
+          <aside class="quick-summary" id="lec2-summary" data-lecture="2">
+            <h3>Quick Summary — Lecture 2</h3>
+            <ul>
+              <li>Voltage (V) = energy per charge. Current (I) = charge per time. Resistance (R) = opposition to current.</li>
+              <li>DC = constant direction and magnitude. AC = periodic reversal, usually sinusoidal.</li>
+              <li>RMS value of AC delivers the same power as the equivalent DC value.</li>
+              <li>Power: P = VI = I²R = V²/R. Energy: W = Pt.</li>
+              <li>Capacitors block DC and pass AC. Capacitive reactance decreases as frequency increases.</li>
+              <li>Conductance G = 1/R. In parallel circuits, total conductance is the sum of individual conductances.</li>
+            </ul>
+          </aside>
+        </article>
+
+        <!-- ======================== LECTURE 3 ======================== -->
+        <article id="lecture-3" class="lecture" data-lecture-number="3" data-status="not-started">
+          <header class="lecture-header">
+            <div class="lecture-badge">Lecture 3</div>
+            <h2 class="lecture-title">Laws of Electricity</h2>
+            <p class="lecture-description">Master the mathematical laws that govern all circuit behavior — from Ohm's Law through Kirchhoff's Laws. These are the most frequently tested topics in any electronics course.</p>
+          </header>
+
+          <!-- Ohm's Law -->
+          <section class="topic-section" id="lec3-ohms-law" data-topic="ohms-law">
+            <details open>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Ohm's Law</h3>
+              </summary>
+              <div class="topic-body">
+                <p>Ohm's Law is the most fundamental relationship in circuit analysis. It states that voltage across a circuit element is directly proportional to the current flowing through it, with the constant of proportionality being resistance.</p>
+
+                <div class="formula-block" data-law="ohms">
+                  <h4>Ohm's Law — Three Forms</h4>
+                  <ul class="formula-list">
+                    <li><code>V = I × R</code> — Find voltage given current and resistance</li>
+                    <li><code>I = V / R</code> — Find current given voltage and resistance</li>
+                    <li><code>R = V / I</code> — Find resistance given voltage and current</li>
+                  </ul>
+                </div>
+
+                <h4>Implications of Ohm's Law</h4>
+                <ul>
+                  <li>Applying current through a resistance produces a voltage drop: V = IR.</li>
+                  <li>Applying voltage across a resistance produces a current flow: I = V/R.</li>
+                  <li>Current always flows from the higher potential (+) terminal to the lower potential (−) terminal — the <strong>passive sign convention</strong>.</li>
+                  <li>The higher-voltage side of a resistor is marked (+), lower side (−). Current enters at (+).</li>
+                </ul>
+
+                <aside class="note-block" data-type="common-mistake">
+                  <h4>Common Mistake</h4>
+                  <p>Ohm's Law applies to linear resistive elements only. It does NOT directly apply to diodes, transistors, or capacitors, whose V-I relationships are nonlinear or frequency-dependent.</p>
+                </aside>
+
+                <aside class="note-block" data-type="exam">
+                  <h4>Exam Note — Ohm's Law Triangle</h4>
+                  <p>Cover the quantity you want to find: Cover V → I × R. Cover I → V / R. Cover R → V / I. This memory trick works every time for basic calculations.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Series Circuits -->
+          <section class="topic-section" id="lec3-series" data-topic="series-circuits">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Series Circuit Analysis</h3>
+              </summary>
+              <div class="topic-body">
+                <p>In a series circuit, all components are connected end-to-end in a single path. Current has only one path through the circuit.</p>
+
+                <h4>Series Circuit Rules</h4>
+                <ul>
+                  <li>The <strong>same current</strong> flows through every component: I_total = I₁ = I₂ = I₃</li>
+                  <li><strong>Total resistance</strong> is the sum: R_total = R₁ + R₂ + R₃ + …</li>
+                  <li>Voltage drops across each resistor: V = I × R (proportional to resistance)</li>
+                  <li>Voltages add up to supply: V_supply = V₁ + V₂ + V₃ (Kirchhoff's Voltage Law)</li>
+                  <li>Total power: P_total = V_supply × I = I² × R_total</li>
+                </ul>
+
+                <div class="formula-block" data-topic="voltage-divider">
+                  <h4>Voltage Divider Rule</h4>
+                  <code class="formula">V_x = V_supply × R_x / R_total</code>
+                  <p>The voltage across any resistor in a series circuit is proportional to its resistance relative to total resistance. A larger resistor gets a larger share of the voltage. If R₁ = R₂, each gets exactly half the supply voltage.</p>
+                  <p>Variable output: Replace one resistor with a potentiometer to create an adjustable voltage divider. Replace with a thermistor or LDR for a sensor-based voltage divider.</p>
+                </div>
+
+                <aside class="note-block" data-type="exam">
+                  <h4>Exam Note — Voltage Divider</h4>
+                  <p>The voltage divider formula given above is for an <strong>unloaded</strong> divider only. When a load resistance is connected across the output, it forms a parallel combination with the lower resistor, changing the output voltage. This is called <strong>loading effect</strong>.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Parallel Circuits -->
+          <section class="topic-section" id="lec3-parallel" data-topic="parallel-circuits">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Parallel Circuit Analysis</h3>
+              </summary>
+              <div class="topic-body">
+                <p>In a parallel circuit, components are connected across the same two nodes — each component has its own separate current path.</p>
+
+                <h4>Parallel Circuit Rules</h4>
+                <ul>
+                  <li>The <strong>same voltage</strong> appears across every parallel branch: V_total = V₁ = V₂ = V₃</li>
+                  <li>Currents add: I_total = I₁ + I₂ + I₃</li>
+                  <li>Total resistance is always LESS than the smallest individual resistor</li>
+                  <li>Formulas for total resistance:
+                    <ul>
+                      <li>Two resistors: <code>R_total = (R₁ × R₂) / (R₁ + R₂)</code> (product over sum)</li>
+                      <li>General: <code>1/R_total = 1/R₁ + 1/R₂ + 1/R₃…</code></li>
+                      <li>Equal resistors: <code>R_total = R / n</code> (n = number of resistors)</li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <div class="formula-block" data-topic="current-divider">
+                  <h4>Current Divider Rule (Two Parallel Resistors)</h4>
+                  <code class="formula">I₁ = I_total × R₂ / (R₁ + R₂)</code>
+                  <code class="formula">I₂ = I_total × R₁ / (R₁ + R₂)</code>
+                  <p>The smaller resistor carries MORE current. The larger resistor carries LESS current. This is the opposite of the voltage divider where a larger resistor gets more voltage.</p>
+                </div>
+
+                <aside class="note-block" data-type="exam-example">
+                  <h4>Worked Example</h4>
+                  <p>Two resistors, 20 Ω and 60 Ω, connected in parallel across 30 V supply.</p>
+                  <ul>
+                    <li>I₁ = 30 / 20 = 1.5 A</li>
+                    <li>I₂ = 30 / 60 = 0.5 A</li>
+                    <li>I_total = 1.5 + 0.5 = 2.0 A (KCL check)</li>
+                    <li>R_total = (20 × 60) / (20 + 60) = 1200 / 80 = 15 Ω</li>
+                  </ul>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Series-Parallel -->
+          <section class="topic-section" id="lec3-series-parallel" data-topic="series-parallel">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Series-Parallel Circuit Analysis</h3>
+              </summary>
+              <div class="topic-body">
+                <p>Real circuits combine series and parallel elements. The strategy is to simplify step by step:</p>
+                <ol>
+                  <li>Identify purely series groups — add their resistances.</li>
+                  <li>Identify purely parallel groups — apply the parallel formula.</li>
+                  <li>Redraw the simplified circuit and repeat until one total resistance remains.</li>
+                  <li>Find total current using I = V / R_total.</li>
+                  <li>Work backwards through the circuit to find individual currents and voltages.</li>
+                </ol>
+                <aside class="note-block" data-type="tip">
+                  <h4>Engineering Tip</h4>
+                  <p>Label nodes with letters (A, B, C…) and redraw simplified circuits at each step. This prevents errors and is expected technique in professional engineering practice.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- KCL -->
+          <section class="topic-section" id="lec3-kcl" data-topic="kcl">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Kirchhoff's Current Law (KCL)</h3>
+              </summary>
+              <div class="topic-body">
+                <p>Formulated by Gustav Kirchhoff in 1845. <strong>KCL</strong> states that the algebraic sum of all currents at any node (junction) in a circuit is zero. Based on conservation of charge — charge cannot be created or destroyed at a node.</p>
+
+                <div class="formula-block" data-law="kcl">
+                  <h4>KCL — Kirchhoff's Current Law</h4>
+                  <code class="formula">ΣI_in = ΣI_out</code>
+                  <p>Equivalently: The algebraic sum of all currents at a node = 0. Currents entering the node are positive; currents leaving are negative (or vice versa, as long as consistent).</p>
+                  <p>Example: If I₁ = 5 A, I₂ = 7 A enter a node, and I₄ = 4 A, I₅ = 8 A leave it: I₃ = 5 + 7 − 4 − 8 = 0 A. KCL is satisfied.</p>
+                </div>
+
+                <h4>Using KCL</h4>
+                <ul>
+                  <li>Identify all nodes in the circuit.</li>
+                  <li>Write a KCL equation for each node (except one reference node).</li>
+                  <li>Solve the system of equations for unknown currents.</li>
+                  <li>Verify: check that the algebraic sum is zero at every node.</li>
+                </ul>
+
+                <aside class="note-block" data-type="exam">
+                  <h4>Exam Note — KCL</h4>
+                  <p>KCL is the tool for parallel circuits and node analysis. For a circuit with N nodes, you need N−1 independent KCL equations. The reference (ground) node is excluded because its equation is redundant.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- KVL -->
+          <section class="topic-section" id="lec3-kvl" data-topic="kvl">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Kirchhoff's Voltage Law (KVL)</h3>
+              </summary>
+              <div class="topic-body">
+                <p><strong>KVL</strong> states that the algebraic sum of all voltages around any closed loop in a circuit is zero. Based on conservation of energy — energy provided by sources equals energy consumed by loads.</p>
+
+                <div class="formula-block" data-law="kvl">
+                  <h4>KVL — Kirchhoff's Voltage Law</h4>
+                  <code class="formula">ΣV = 0</code>
+                  <p>Sum of all voltage rises = Sum of all voltage drops around any closed loop.</p>
+                  <p>Example: 12 V source in a series circuit with R₁=10 Ω, R₂=20 Ω, R₃=30 Ω. Total R = 60 Ω. I = 12/60 = 0.2 A. V₁ = 2 V, V₂ = 4 V, V₃ = 6 V. Check: 12 − 2 − 4 − 6 = 0. ✓</p>
+                </div>
+
+                <h4>Applying KVL</h4>
+                <ol>
+                  <li>Choose a starting point in the loop.</li>
+                  <li>Choose a direction to traverse (clockwise or counterclockwise — be consistent).</li>
+                  <li>Moving through a source from − to +: add the voltage (+V).</li>
+                  <li>Moving through a source from + to −: subtract the voltage (−V).</li>
+                  <li>Moving through a resistor in the direction of current: subtract (−IR) — voltage drop.</li>
+                  <li>Moving through a resistor against the direction of current: add (+IR).</li>
+                  <li>Sum all values and set equal to zero.</li>
+                </ol>
+
+                <aside class="note-block" data-type="exam">
+                  <h4>Exam Note — KVL</h4>
+                  <p>KVL is the tool for series circuits and mesh analysis. For a circuit with M independent meshes, you need M independent KVL equations. Together with KCL, these two laws can solve any linear circuit.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <aside class="quick-summary" id="lec3-summary" data-lecture="3">
+            <h3>Quick Summary — Lecture 3</h3>
+            <ul>
+              <li><strong>Ohm's Law:</strong> V = IR. The cornerstone of all circuit analysis.</li>
+              <li><strong>Series:</strong> Same current everywhere. Resistances add. Voltages divide proportionally.</li>
+              <li><strong>Parallel:</strong> Same voltage everywhere. Currents add. Conductances add. Total R is less than smallest branch R.</li>
+              <li><strong>KCL:</strong> Sum of currents at any node = 0. Tool for parallel and node analysis.</li>
+              <li><strong>KVL:</strong> Sum of voltages in any loop = 0. Tool for series and mesh analysis.</li>
+              <li><strong>Power:</strong> P = VI = I²R = V²/R. Always confirm power rating of components before building.</li>
+            </ul>
+          </aside>
+        </article>
+
+        <!-- ======================== LECTURE 4 ======================== -->
+        <article id="lecture-4" class="lecture" data-lecture-number="4" data-status="not-started">
+          <header class="lecture-header">
+            <div class="lecture-badge">Lecture 4</div>
+            <h2 class="lecture-title">Basic Test Equipment</h2>
+            <p class="lecture-description">Every electronics engineer must be proficient with test and measurement instruments. This lecture covers the essential tools for measuring, testing, probing, and building electronic circuits.</p>
+          </header>
+
+          <!-- DMM -->
+          <section class="topic-section" id="lec4-dmm" data-topic="dmm">
+            <details open>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Digital Multimeter (DMM)</h3>
+              </summary>
+              <div class="topic-body">
+                <p>The <strong>Digital Multimeter</strong> is the most essential and versatile instrument in electronics. It measures voltage (V), current (A), and resistance (Ω) — and most modern units also measure capacitance, frequency, temperature, continuity, and diode forward voltage.</p>
+
+                <h4>Key DMM Measurement Modes</h4>
+                <table class="reference-table" aria-label="DMM Modes">
+                  <thead>
+                    <tr>
+                      <th scope="col">Mode</th>
+                      <th scope="col">Symbol</th>
+                      <th scope="col">Connection</th>
+                      <th scope="col">Important Notes</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>DC Voltage</td>
+                      <td>V— or DCV</td>
+                      <td>Parallel with component</td>
+                      <td>Circuit must be powered ON. Very high input impedance (≥10 MΩ).</td>
+                    </tr>
+                    <tr>
+                      <td>AC Voltage</td>
+                      <td>V~ or ACV</td>
+                      <td>Parallel with component</td>
+                      <td>Circuit must be powered ON. Reads RMS value for sine waves.</td>
+                    </tr>
+                    <tr>
+                      <td>DC Current</td>
+                      <td>A— or DCI</td>
+                      <td>Series in circuit (break circuit!)</td>
+                      <td>Very low input resistance — DO NOT connect in parallel across voltage.</td>
+                    </tr>
+                    <tr>
+                      <td>Resistance</td>
+                      <td>Ω</td>
+                      <td>Parallel, circuit OFF &amp; component lifted</td>
+                      <td>Power must be OFF. Component must be out of circuit for accurate reading.</td>
+                    </tr>
+                    <tr>
+                      <td>Continuity</td>
+                      <td>))) or diode symbol</td>
+                      <td>Across suspected break</td>
+                      <td>Beeps if resistance &lt; ~30 Ω. Great for testing wire connections and fuses.</td>
+                    </tr>
+                    <tr>
+                      <td>Diode Test</td>
+                      <td>Diode symbol</td>
+                      <td>Anode to + lead, cathode to − lead</td>
+                      <td>Good silicon diode: ~0.55–0.75 V. LED: 1.8–3.5 V. Short: 0 V. Open: OL.</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <aside class="warning-block" data-type="safety">
+                  <h4>Critical Safety Warning — DMM</h4>
+                  <p>NEVER connect the DMM in Current mode (ammeter) across a voltage source. The internal resistance is near zero — this creates a short circuit that will blow the internal fuse, potentially damage the meter, and may cause injury. Always select the correct mode BEFORE connecting probes.</p>
+                </aside>
+
+                <aside class="note-block" data-type="troubleshooting">
+                  <h4>Troubleshooting — Common DMM Errors</h4>
+                  <ul>
+                    <li>OL or overrange: Selected range is too low — increase the range setting.</li>
+                    <li>Reading fluctuates: Loose probe contact or component is oscillating.</li>
+                    <li>Resistance reads near zero: Component has failed short, or probes are swapped into current jacks.</li>
+                    <li>No beep in continuity: Either an open circuit or probes in wrong jacks.</li>
+                    <li>Low battery indicator: Replace battery — low battery causes inaccurate readings.</li>
+                  </ul>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Oscilloscope -->
+          <section class="topic-section" id="lec4-oscilloscope" data-topic="oscilloscope">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Oscilloscope</h3>
+              </summary>
+              <div class="topic-body">
+                <p>The <strong>oscilloscope</strong> displays voltage waveforms as a function of time, allowing you to observe signal shapes, measure frequency, amplitude, phase shift, rise time, and identify noise or distortion. It is the most powerful diagnostic tool in electronics.</p>
+
+                <h4>Key Oscilloscope Controls</h4>
+                <ul>
+                  <li><strong>Volts/Div (vertical scale):</strong> Sets how many volts each vertical grid division represents. Example: 2 V/div means a waveform spanning 3 divisions = 6 V peak-to-peak.</li>
+                  <li><strong>Time/Div (horizontal scale):</strong> Sets the time each horizontal grid division represents. Used to measure period and frequency.</li>
+                  <li><strong>Trigger:</strong> Stabilizes the waveform display by starting the sweep at a consistent point in the signal cycle.</li>
+                  <li><strong>Channel selector:</strong> Most oscilloscopes have 2–4 channels for simultaneous waveform comparison.</li>
+                  <li><strong>Probe attenuation:</strong> Most probes are 10X — multiply the scale reading by 10.</li>
+                </ul>
+
+                <div class="formula-block">
+                  <h4>Reading an Oscilloscope</h4>
+                  <ul class="formula-list">
+                    <li><code>V_peak-to-peak = divisions × Volts/Div</code></li>
+                    <li><code>Period T = divisions × Time/Div</code></li>
+                    <li><code>Frequency f = 1 / T</code></li>
+                    <li><code>V_RMS = V_peak / √2</code> (for sine waves only)</li>
+                  </ul>
+                </div>
+
+                <aside class="note-block" data-type="practical">
+                  <h4>Practical Tip</h4>
+                  <p>Always connect the oscilloscope probe ground clip BEFORE attaching the probe tip — this prevents ground loops and transient damage. Keep probe ground connections short. Never use the oscilloscope to measure mains voltage directly without a differential probe or isolation transformer.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Hand Tools -->
+          <section class="topic-section" id="lec4-tools" data-topic="hand-tools">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Hand Tools &amp; Workshop Equipment</h3>
+              </summary>
+              <div class="topic-body">
+                <table class="reference-table" aria-label="Electronics Hand Tools">
+                  <thead>
+                    <tr>
+                      <th scope="col">Tool</th>
+                      <th scope="col">Primary Function</th>
+                      <th scope="col">Key Usage Tip</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Soldering Station (Temperature-Controlled)</td>
+                      <td>Permanently joining electronic components to PCB or wire</td>
+                      <td>Use 60/40 or 63/37 tin-lead solder (or lead-free for RoHS). Tin the tip before each use. Ideal temp: 300–370 °C for most work.</td>
+                    </tr>
+                    <tr>
+                      <td>Hot Glue Gun</td>
+                      <td>Mechanical support, strain relief, insulation of loose wires</td>
+                      <td>Allow full cure before applying mechanical stress. Not suitable for high-temperature environments (&gt; 80 °C).</td>
+                    </tr>
+                    <tr>
+                      <td>Dremel Rotary Tool</td>
+                      <td>Cutting, drilling, sanding, engraving enclosures and PCBs</td>
+                      <td>Wear eye protection and a dust mask. Use at appropriate RPM for material — too fast melts plastics.</td>
+                    </tr>
+                    <tr>
+                      <td>Precision Screwdriver Set</td>
+                      <td>Assembling/disassembling electronics; adjusting trimmers and cores</td>
+                      <td>Use non-conductive screwdrivers for adjusting live circuits. Phillips, JIS, slotted, and Torx covers most electronics.</td>
+                    </tr>
+                    <tr>
+                      <td>Tweezers (ESD-Safe)</td>
+                      <td>Placing and removing tiny SMD components</td>
+                      <td>Use ESD-safe (grounded) tweezers when handling CMOS ICs and MOSFETs to prevent static damage.</td>
+                    </tr>
+                    <tr>
+                      <td>Third Hand Tool</td>
+                      <td>Holding components steady during soldering</td>
+                      <td>Prevents burns from holding hot components. Essential for through-hole soldering alone.</td>
+                    </tr>
+                    <tr>
+                      <td>Self-Adjusting Wire Stripper/Cutter</td>
+                      <td>Stripping insulation from wire without nicking the conductor</td>
+                      <td>Use the correct jaw for wire gauge (AWG). Nicked conductors reduce current capacity and can break under vibration.</td>
+                    </tr>
+                    <tr>
+                      <td>Function Generator</td>
+                      <td>Produces sine, square, triangle, sawtooth waveforms for testing circuits</td>
+                      <td>Set frequency and amplitude carefully before connecting to circuit. Use 50 Ω termination when driving matched loads.</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <aside class="warning-block" data-type="safety">
+                  <h4>Soldering Safety</h4>
+                  <p>Always work in a ventilated area or use a fume extractor — solder flux fumes are harmful with prolonged exposure. Never eat or touch your face while soldering. Lead-based solder requires hand washing after use. Keep the iron in its holder when not in use — the tip reaches temperatures that cause immediate severe burns.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <aside class="quick-summary" id="lec4-summary" data-lecture="4">
+            <h3>Quick Summary — Lecture 4</h3>
+            <ul>
+              <li>DMM measures V, I, R, continuity, diodes. Always select the right mode and range before connecting.</li>
+              <li>Oscilloscope shows waveform shape, amplitude, frequency, phase — far more information than a DMM.</li>
+              <li>Soldering station: temperature control is critical. Too hot damages components; too cold gives cold joints.</li>
+              <li>ESD (electrostatic discharge) can destroy CMOS ICs with a static spark invisible to the human eye. Use ESD precautions.</li>
+              <li>Never measure current in parallel — always break the circuit and insert the meter in series.</li>
+            </ul>
+          </aside>
+        </article>
+
+        <!-- ======================== LECTURE 5 ======================== -->
+        <article id="lecture-5" class="lecture" data-lecture-number="5" data-status="not-started">
+          <header class="lecture-header">
+            <div class="lecture-badge">Lecture 5</div>
+            <h2 class="lecture-title">Circuit Boards &amp; Motors</h2>
+            <p class="lecture-description">From prototype breadboards to production PCBs, and from simple brush motors to advanced brushless and stepper systems — this lecture covers the physical platforms where circuits come to life.</p>
+          </header>
+
+          <!-- Circuit Boards -->
+          <section class="topic-section" id="lec5-circuit-boards" data-topic="circuit-boards">
+            <details open>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Circuit Boards: Breadboard, Stripboard, PCB</h3>
+              </summary>
+              <div class="topic-body">
+                <table class="comparison-table" aria-label="Circuit Board Types">
+                  <thead>
+                    <tr>
+                      <th scope="col">Property</th>
+                      <th scope="col">Breadboard</th>
+                      <th scope="col">Stripboard (Veroboard)</th>
+                      <th scope="col">Printed Circuit Board (PCB)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Soldering required</td>
+                      <td>No (plug-in)</td>
+                      <td>Yes</td>
+                      <td>Yes</td>
+                    </tr>
+                    <tr>
+                      <td>Reusability</td>
+                      <td>Fully reusable</td>
+                      <td>Limited (can desolder)</td>
+                      <td>Not reusable</td>
+                    </tr>
+                    <tr>
+                      <td>Reliability</td>
+                      <td>Low (intermittent contacts)</td>
+                      <td>Medium</td>
+                      <td>Very high</td>
+                    </tr>
+                    <tr>
+                      <td>Typical use</td>
+                      <td>Rapid prototyping, education</td>
+                      <td>One-off prototypes, repairs</td>
+                      <td>Production, final products</td>
+                    </tr>
+                    <tr>
+                      <td>Max frequency</td>
+                      <td>Low (~1–10 MHz)</td>
+                      <td>Medium</td>
+                      <td>Very high (GHz)</td>
+                    </tr>
+                    <tr>
+                      <td>Cost</td>
+                      <td>Low (reusable)</td>
+                      <td>Low</td>
+                      <td>Higher (setup + manufacture)</td>
+                    </tr>
+                    <tr>
+                      <td>SMD components</td>
+                      <td>Not supported</td>
+                      <td>With adapters only</td>
+                      <td>Full SMD support</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <h4>Breadboard Layout</h4>
+                <p>A standard breadboard has horizontal power rails (usually marked + and −) running along the long edges, and vertical columns of 5 connected holes in the central area. Each column shares a connection — inserting a component lead and a wire in the same column connects them without soldering. Rows are separated by a central gap (for DIP ICs that straddle the gap).</p>
+
+                <aside class="note-block" data-type="common-mistake">
+                  <h4>Common Breadboard Mistakes</h4>
+                  <ul>
+                    <li>Forgetting to connect power rail segments — most breadboards have a break in the middle of the power rails.</li>
+                    <li>Using bent or damaged component leads — they make poor contact and cause intermittent faults.</li>
+                    <li>Overcrowding — keeping wires short and color-coded prevents impossible-to-debug spaghetti circuits.</li>
+                    <li>Running high-current circuits (motors, high-power LEDs) on breadboards — the contact resistance can cause voltage drops and fires.</li>
+                  </ul>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Motors -->
+          <section class="topic-section" id="lec5-motors" data-topic="motors">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Electric Motors</h3>
+              </summary>
+              <div class="topic-body">
+                <p>An electric motor converts electrical energy into mechanical energy (rotation) by the interaction of a current-carrying conductor with a magnetic field. The force on a conductor is:</p>
+
+                <div class="formula-block">
+                  <code class="formula">F = B × I × l</code>
+                  <p>F = force (Newtons) | B = magnetic flux density (Tesla) | I = current (Amperes) | l = conductor length (meters). Direction given by Fleming's Left Hand Rule: Index finger = B field direction, Middle finger = current direction, Thumb = force (motion) direction.</p>
+                </div>
+
+                <h4>DC Motor Key Concepts</h4>
+                <ul>
+                  <li><strong>Back EMF (Eb):</strong> When the armature rotates in the magnetic field, it generates an opposing voltage (Lenz's Law). Eb = V − (Ia × Ra). Back EMF is the self-regulating mechanism — as load increases, speed drops, Eb falls, more current flows, more torque is produced to handle the load.</li>
+                  <li><strong>Voltage equation:</strong> V = Eb + Ia × Ra</li>
+                  <li>Torque ∝ Ia × Φ (flux)</li>
+                  <li>Speed ∝ (V − Ia × Ra) / Φ</li>
+                </ul>
+
+                <table class="comparison-table" aria-label="Motor Types Comparison">
+                  <thead>
+                    <tr>
+                      <th scope="col">Property</th>
+                      <th scope="col">AC Motor</th>
+                      <th scope="col">Brush DC Motor</th>
+                      <th scope="col">Brushless DC (BLDC)</th>
+                      <th scope="col">Stepper Motor</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Power supply</td>
+                      <td>AC mains</td>
+                      <td>DC</td>
+                      <td>DC (with controller)</td>
+                      <td>DC (pulsed)</td>
+                    </tr>
+                    <tr>
+                      <td>Speed control</td>
+                      <td>VFD (Variable Frequency Drive)</td>
+                      <td>Simple (voltage/PWM)</td>
+                      <td>Electronic controller (ESC)</td>
+                      <td>Pulse counting (precise)</td>
+                    </tr>
+                    <tr>
+                      <td>Maintenance</td>
+                      <td>Low</td>
+                      <td>Medium (brush wear)</td>
+                      <td>Very low (no brushes)</td>
+                      <td>Low</td>
+                    </tr>
+                    <tr>
+                      <td>Efficiency</td>
+                      <td>High</td>
+                      <td>Medium</td>
+                      <td>Very high</td>
+                      <td>Low–medium</td>
+                    </tr>
+                    <tr>
+                      <td>Position control</td>
+                      <td>Requires encoder</td>
+                      <td>Requires encoder</td>
+                      <td>Requires encoder</td>
+                      <td>Open-loop (step counting)</td>
+                    </tr>
+                    <tr>
+                      <td>Typical applications</td>
+                      <td>Industrial pumps, fans, HVAC</td>
+                      <td>Toys, automotive starters, small appliances</td>
+                      <td>Drones, EVs, computers (fans)</td>
+                      <td>3D printers, CNC, robotics</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <h4>DC Motor Types (by winding configuration)</h4>
+                <ul>
+                  <li><strong>Shunt Motor:</strong> Field and armature in parallel. Constant flux → nearly constant speed. Applications: machine tools, pumps, fans. Called a "constant speed" motor.</li>
+                  <li><strong>Series Motor:</strong> Field and armature in series. Flux ∝ Ia → Torque ∝ Ia². Very high starting torque. Speed drops sharply with load. Applications: electric trains, cranes, hoists. NEVER run a series motor unloaded — it will overspeed and self-destruct.</li>
+                  <li><strong>Compound Motor:</strong> Both shunt and series field windings. Combines characteristics of both — good starting torque with controlled speed. Applications: elevators, rolling mills, punches.</li>
+                </ul>
+
+                <aside class="warning-block" data-type="safety">
+                  <h4>Motor Safety Warning</h4>
+                  <p>DC Series motors must never be started without a load. Without load, flux is minimal and speed becomes dangerously high — the motor can mechanically destroy itself. Always place a flyback diode across motor terminals to suppress inductive kickback when the drive signal is switched off.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Power Supply -->
+          <section class="topic-section" id="lec5-power-supply" data-topic="power-supply">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Power Supply Systems &amp; Rectification</h3>
+              </summary>
+              <div class="topic-body">
+                <p>A power supply converts mains AC (120 V or 230 V, 50/60 Hz) into the regulated DC voltages required by electronic circuits. The linear portion connects directly to the AC line or transformer and uses diodes to rectify AC into DC.</p>
+
+                <h4>Rectifier Types</h4>
+                <ul>
+                  <li><strong>Half-Wave Rectifier:</strong> One diode — passes only positive half-cycles. Output is pulsating DC. Simple but inefficient; large ripple voltage.</li>
+                  <li><strong>Full-Wave Rectifier (Center-Tap):</strong> Two diodes and a center-tapped transformer. Both half-cycles are used. Requires a center-tapped transformer — not always available.</li>
+                  <li><strong>Bridge Rectifier:</strong> Four diodes arranged as a bridge. Full-wave rectification without center-tapped transformer. The standard for modern power supplies. Current always flows left-to-right through the load regardless of AC polarity.</li>
+                </ul>
+
+                <p>After rectification, a large filter capacitor (electrolytic) smooths the pulsating DC into near-constant DC. Then a voltage regulator IC (e.g., LM7805 for 5 V) provides precise regulated output.</p>
+
+                <aside class="note-block" data-type="exam">
+                  <h4>Exam Note — Rectifier Rule</h4>
+                  <p>In any rectifier circuit: the positive end of the load connects to the cathode of the rectifier. The negative end of the load connects to the anode of the rectifier. This polarity rule holds for all rectifier configurations.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <aside class="quick-summary" id="lec5-summary" data-lecture="5">
+            <h3>Quick Summary — Lecture 5</h3>
+            <ul>
+              <li>Breadboard: no soldering, reusable, for prototyping. PCB: soldered, reliable, for production.</li>
+              <li>DC motors: F = BIl. Back EMF regulates current automatically. Series motor has highest starting torque but must not run unloaded.</li>
+              <li>BLDC motors: most efficient, lowest maintenance — used in drones and EVs.</li>
+              <li>Stepper motors: precise open-loop position control — used in 3D printers and CNC.</li>
+              <li>Bridge rectifier: 4 diodes, full-wave rectification, no center-tap required — the standard power supply design.</li>
+            </ul>
+          </aside>
+        </article>
+
+      </section>
+      <!-- END SECTION 1 -->
+
+      <!-- ==================== SECTION 2 ==================== -->
+      <section id="section-analog" class="course-section" data-section-number="2" aria-labelledby="sec2-heading">
+        <header class="section-header">
+          <div class="section-badge">Section 2</div>
+          <h2 id="sec2-heading" class="section-title">Analog Electronics</h2>
+          <p class="section-intro">Explore the behavior of semiconductor devices — diodes, transistors, and integrated circuits — that form the building blocks of all analog signal processing systems.</p>
+        </header>
+
+        <!-- ======================== LECTURE 6 ======================== -->
+        <article id="lecture-6" class="lecture" data-lecture-number="6" data-status="not-started">
+          <header class="lecture-header">
+            <div class="lecture-badge">Lecture 6</div>
+            <h2 class="lecture-title">Semiconductors &amp; Diodes</h2>
+            <p class="lecture-description">A detailed examination of semiconductor physics and the practical application of diode types in rectifiers, voltage regulators, protection circuits, and signal detection.</p>
+          </header>
+
+          <!-- Semiconductors -->
+          <section class="topic-section" id="lec6-semiconductors" data-topic="semiconductors">
+            <details open>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Semiconductor Physics</h3>
+              </summary>
+              <div class="topic-body">
+                <p>Semiconductors are materials with electrical conductivity between conductors and insulators. The most important semiconductor material is <strong>silicon (Si)</strong>. Silicon has four valence electrons, forming covalent bonds with four neighboring atoms in a crystal lattice.</p>
+
+                <h4>Intrinsic vs Extrinsic Semiconductors</h4>
+                <ul>
+                  <li><strong>Intrinsic (Pure):</strong> Pure silicon. Very few free carriers at room temperature. Conductivity increases with temperature (unlike metals).</li>
+                  <li><strong>Extrinsic (Doped):</strong> Impurity atoms added to control conductivity.
+                    <ul>
+                      <li><strong>N-type:</strong> Doped with pentavalent atoms (phosphorus, arsenic) — adds extra electrons. Free electrons are majority carriers.</li>
+                      <li><strong>P-type:</strong> Doped with trivalent atoms (boron, aluminum) — creates holes (missing electrons). Holes are majority carriers (behave as positive charges).</li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <h4>The P-N Junction</h4>
+                <p>When P-type and N-type material are joined, free electrons from N-type diffuse across to fill holes in P-type. This creates a <strong>depletion region</strong> — a zone depleted of free carriers — and a <strong>built-in potential barrier</strong> (~0.6–0.7 V for silicon).</p>
+
+                <h4>Biasing the Junction</h4>
+                <ul>
+                  <li><strong>Forward bias:</strong> Positive voltage applied to P-side, negative to N-side. Narrows depletion region → current flows freely once forward voltage exceeds barrier (~0.6 V for Si).</li>
+                  <li><strong>Reverse bias:</strong> Negative voltage to P-side, positive to N-side. Widens depletion region → almost no current flows (only tiny leakage current). If reverse voltage exceeds breakdown voltage, large current flows — useful in Zener diodes, destructive in rectifier diodes.</li>
+                </ul>
+
+                <aside class="note-block" data-type="must-remember">
+                  <h4>Must Remember</h4>
+                  <p>Silicon diode forward voltage = ~0.6–0.7 V. Germanium = ~0.2–0.3 V. Schottky = ~0.2–0.4 V. LEDs vary by color: Red ~1.8 V, Green ~2.1 V, Blue/White ~3.0–3.5 V. Always check the datasheet.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Diodes in detail -->
+          <section class="topic-section" id="lec6-diodes" data-topic="diodes-detail">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Diode Applications &amp; Circuits</h3>
+              </summary>
+              <div class="topic-body">
+                <h4>Half-Wave and Full-Wave Rectification</h4>
+                <p>Diodes are the fundamental AC-to-DC conversion element. The bridge rectifier (4 diodes) is the industry standard — it rectifies both half-cycles without requiring a center-tapped transformer.</p>
+
+                <h4>Zener Diode Voltage Regulation</h4>
+                <p>A Zener diode operates in reverse breakdown at a precise voltage (Zener voltage, Vz). By connecting a Zener in reverse across a supply rail with a series resistor, the output voltage is clamped to Vz regardless of load variation or supply fluctuation.</p>
+                <div class="formula-block">
+                  <code class="formula">R_series = (V_supply − V_Z) / I_Z(min)</code>
+                  <p>Where I_Z(min) is the minimum Zener current for stable regulation (typically 5–10 mA).</p>
+                </div>
+
+                <h4>LED Current Limiting</h4>
+                <p>LEDs must always have a current limiting resistor in series. The formula is:</p>
+                <div class="formula-block">
+                  <code class="formula">R = (V_supply − V_f) / I_f</code>
+                  <p>Where V_f = LED forward voltage, I_f = desired LED current (typically 10–20 mA).</p>
+                  <p>Example: 5 V supply, red LED (V_f = 2 V, I_f = 15 mA): R = (5 − 2) / 0.015 = 200 Ω → Use 220 Ω (next standard value).</p>
+                </div>
+
+                <aside class="warning-block" data-type="safety">
+                  <h4>Never Connect an LED Without a Series Resistor</h4>
+                  <p>Without a current-limiting resistor, an LED draws unlimited current, instantly overheats, and permanently fails. This is the single most common beginner mistake in electronics lab work.</p>
+                </aside>
+
+                <aside class="note-block" data-type="troubleshooting">
+                  <h4>Diode Troubleshooting</h4>
+                  <ul>
+                    <li>Test with DMM in diode mode: should read ~0.6–0.7 V forward, OL (open) reverse for silicon diodes.</li>
+                    <li>Short circuit in both directions: diode has failed short (often from overcurrent).</li>
+                    <li>OL in both directions: diode has failed open (often from overvoltage).</li>
+                    <li>LED doesn't light: check polarity (anode = longer leg), check current-limiting resistor value, measure voltage across LED (should be 1.8–3.5 V).</li>
+                  </ul>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <aside class="quick-summary" id="lec6-summary" data-lecture="6">
+            <h3>Quick Summary — Lecture 6</h3>
+            <ul>
+              <li>N-type = extra electrons (majority). P-type = holes as majority carriers.</li>
+              <li>P-N junction: forward bias allows current, reverse bias blocks current.</li>
+              <li>Silicon Vf ≈ 0.7 V. Schottky ≈ 0.3 V. LED: 1.8–3.5 V (color dependent).</li>
+              <li>Zener diode = voltage regulator in reverse breakdown.</li>
+              <li>Always use a series resistor with LEDs: R = (Vsupply − Vf) / If.</li>
+              <li>Bridge rectifier: 4 diodes, full-wave, no center-tap required.</li>
+            </ul>
+          </aside>
+        </article>
+
+        <!-- ======================== LECTURE 7 ======================== -->
+        <article id="lecture-7" class="lecture" data-lecture-number="7" data-status="not-started">
+          <header class="lecture-header">
+            <div class="lecture-badge">Lecture 7</div>
+            <h2 class="lecture-title">Transistors</h2>
+            <p class="lecture-description">Transistors are the fundamental active elements that make amplification and digital logic possible. This lecture covers BJT and MOSFET operation, biasing, and switching circuits.</p>
+          </header>
+
+          <!-- BJT -->
+          <section class="topic-section" id="lec7-bjt" data-topic="bjt">
+            <details open>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Bipolar Junction Transistors (BJT)</h3>
+              </summary>
+              <div class="topic-body">
+                <p>A <strong>BJT</strong> is a current-controlled device with three terminals: <strong>Base (B)</strong>, <strong>Collector (C)</strong>, and <strong>Emitter (E)</strong>. A small base current controls a much larger collector current — the fundamental mechanism of amplification.</p>
+
+                <h4>NPN vs PNP BJT</h4>
+                <table class="reference-table" aria-label="NPN vs PNP">
+                  <thead>
+                    <tr>
+                      <th scope="col">Property</th>
+                      <th scope="col">NPN</th>
+                      <th scope="col">PNP</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Structure</td><td>N — P — N sandwich</td><td>P — N — P sandwich</td></tr>
+                    <tr><td>Majority carriers</td><td>Electrons</td><td>Holes</td></tr>
+                    <tr><td>Conventional current direction</td><td>C → E (into base to turn ON)</td><td>E → C (out of base to turn ON)</td></tr>
+                    <tr><td>Most common type</td><td>Yes (2N2222, BC547, 2N3904)</td><td>Less common (2N2907, BC557)</td></tr>
+                    <tr><td>Application</td><td>Switch, amplifier (most common)</td><td>High-side switch, complementary pairs</td></tr>
+                  </tbody>
+                </table>
+
+                <div class="formula-block" data-topic="bjt-formulas">
+                  <h4>Key BJT Formulas</h4>
+                  <ul class="formula-list">
+                    <li><code>I_C = β × I_B</code> — Collector current = Current gain × Base current</li>
+                    <li><code>I_E = I_C + I_B</code> — Emitter current = Collector + Base current</li>
+                    <li><code>β (hFE) = I_C / I_B</code> — DC current gain (typically 50–500)</li>
+                    <li><code>V_BE ≈ 0.6–0.7 V</code> — Base-emitter voltage when forward biased (silicon)</li>
+                    <li><code>V_CE(sat) ≈ 0.2 V</code> — Collector-emitter voltage in saturation (fully ON)</li>
+                    <li>For switching: <code>I_B(min) = I_C(max) / β</code> — ensure transistor is saturated</li>
+                  </ul>
+                </div>
+
+                <h4>BJT Operating Regions</h4>
+                <table class="reference-table" aria-label="BJT Regions">
+                  <thead>
+                    <tr>
+                      <th scope="col">Region</th>
+                      <th scope="col">VBE</th>
+                      <th scope="col">VBC</th>
+                      <th scope="col">State</th>
+                      <th scope="col">Use</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Cutoff</td><td>&lt; 0.6 V</td><td>Reverse biased</td><td>OFF (no current)</td><td>Digital LOW</td></tr>
+                    <tr><td>Active (Forward Active)</td><td>≈ 0.7 V</td><td>Reverse biased</td><td>Amplifying region</td><td>Linear amplifiers</td></tr>
+                    <tr><td>Saturation</td><td>≈ 0.7 V</td><td>Forward biased</td><td>ON (maximum current)</td><td>Digital HIGH / switch</td></tr>
+                    <tr><td>Reverse Active</td><td>Reverse biased</td><td>Forward biased</td><td>Reverse amplification</td><td>Rarely used</td></tr>
+                  </tbody>
+                </table>
+
+                <aside class="note-block" data-type="exam">
+                  <h4>Exam Note — BJT Switch Design</h4>
+                  <p>To use a BJT as a switch: drive it into saturation (fully ON) or cutoff (fully OFF). In saturation, V_CE ≈ 0.2 V. In cutoff, V_CE = V_supply. Calculate minimum base current needed: IB = IC/β (use datasheet β, or assume β = 100 for design margin).</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- MOSFET -->
+          <section class="topic-section" id="lec7-mosfet" data-topic="mosfet">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">MOSFETs</h3>
+              </summary>
+              <div class="topic-body">
+                <p>A <strong>MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor)</strong> is a voltage-controlled device with three terminals: <strong>Gate (G)</strong>, <strong>Drain (D)</strong>, and <strong>Source (S)</strong>. The gate voltage controls the channel conductivity via an electric field through an insulating oxide layer. No gate current flows (theoretically infinite input impedance).</p>
+
+                <h4>N-Channel vs P-Channel MOSFET</h4>
+                <table class="reference-table" aria-label="MOSFET Types">
+                  <thead>
+                    <tr>
+                      <th scope="col">Property</th>
+                      <th scope="col">N-Channel (NMOS)</th>
+                      <th scope="col">P-Channel (PMOS)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Turn ON condition</td><td>VGS &gt; V_th (threshold, typically 2–4 V)</td><td>VGS &lt; −V_th</td></tr>
+                    <tr><td>Current flow</td><td>Drain → Source</td><td>Source → Drain</td></tr>
+                    <tr><td>Most common</td><td>Yes (IRF540, 2N7000)</td><td>Less common</td></tr>
+                    <tr><td>On-resistance (Rds_on)</td><td>Lower (better for power)</td><td>Higher</td></tr>
+                    <tr><td>Typical placement</td><td>Low-side switch</td><td>High-side switch</td></tr>
+                  </tbody>
+                </table>
+
+                <h4>Enhancement Mode vs Depletion Mode</h4>
+                <ul>
+                  <li><strong>Enhancement Mode:</strong> OFF by default. Applying gate voltage turns it ON. Most common in digital and power circuits.</li>
+                  <li><strong>Depletion Mode:</strong> ON by default. Applying gate voltage turns it OFF. Used in specialized RF and analog circuits.</li>
+                </ul>
+
+                <h4>BJT vs MOSFET Comparison</h4>
+                <table class="comparison-table" aria-label="BJT vs MOSFET">
+                  <thead>
+                    <tr>
+                      <th scope="col">Property</th>
+                      <th scope="col">BJT</th>
+                      <th scope="col">MOSFET</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Control type</td><td>Current-controlled</td><td>Voltage-controlled</td></tr>
+                    <tr><td>Input impedance</td><td>Medium (kΩ)</td><td>Very high (GΩ)</td></tr>
+                    <tr><td>Drive requirement</td><td>Continuous base current</td><td>Only gate voltage; no static current</td></tr>
+                    <tr><td>Switching speed</td><td>Slower (minority carrier storage)</td><td>Faster (majority carrier device)</td></tr>
+                    <tr><td>Noise</td><td>Lower noise floor</td><td>Higher thermal noise at low frequencies</td></tr>
+                    <tr><td>On-state voltage drop</td><td>V_CE(sat) ≈ 0.2 V</td><td>I × Rds(on) (can be &lt;0.1 V for power MOSFETs)</td></tr>
+                    <tr><td>Power handling</td><td>Medium</td><td>Excellent (power MOSFETs handle hundreds of amps)</td></tr>
+                    <tr><td>ESD sensitivity</td><td>Moderate</td><td>Very sensitive — oxide can be destroyed by static</td></tr>
+                    <tr><td>Preferred use</td><td>Low-noise amplifiers, audio, linear circuits</td><td>Digital logic, switching supplies, motor drives, RF power</td></tr>
+                  </tbody>
+                </table>
+
+                <aside class="warning-block" data-type="safety">
+                  <h4>MOSFET Static Damage Warning</h4>
+                  <p>The gate oxide of a MOSFET is only a few nanometers thick. A static discharge of just a few volts can permanently rupture it, making the device fail short or open. Always use ESD-safe handling: wrist strap, ESD mat, and anti-static bags. Short the leads together when storing.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <aside class="quick-summary" id="lec7-summary" data-lecture="7">
+            <h3>Quick Summary — Lecture 7</h3>
+            <ul>
+              <li>BJT: current-controlled. IC = β × IB. Regions: cutoff (OFF), active (amplify), saturation (ON).</li>
+              <li>MOSFET: voltage-controlled. No gate current. VGS controls channel conductivity.</li>
+              <li>Enhancement MOSFET: OFF by default, gate voltage turns it ON (most common type).</li>
+              <li>MOSFET advantages: high input impedance, faster switching, better power efficiency.</li>
+              <li>BJT advantages: lower noise, better linearity at low signals, more predictable audio performance.</li>
+              <li>Always protect gate with a resistor (100Ω–10kΩ) to limit charge rate and prevent oscillation.</li>
+            </ul>
+          </aside>
+        </article>
+
+        <!-- ======================== LECTURE 8 ======================== -->
+        <article id="lecture-8" class="lecture" data-lecture-number="8" data-status="not-started">
+          <header class="lecture-header">
+            <div class="lecture-badge">Lecture 8</div>
+            <h2 class="lecture-title">Small-Signal Amplifiers</h2>
+            <p class="lecture-description">Analyze amplifier configurations, understand gain, biasing, frequency response, and the practical design of BJT and FET amplifier stages.</p>
+          </header>
+
+          <!-- Amplifier Basics -->
+          <section class="topic-section" id="lec8-amplifier-basics" data-topic="amplifier-basics">
+            <details open>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Amplifier Fundamentals</h3>
+              </summary>
+              <div class="topic-body">
+                <p>An <strong>amplifier</strong> increases the amplitude of an electrical signal. The ratio of output to input is called <strong>gain</strong>. Small-signal amplifiers operate in the active (linear) region of the transistor's characteristic curves, where small input variations produce proportionally larger output variations.</p>
+
+                <div class="formula-block">
+                  <h4>Gain Definitions</h4>
+                  <ul class="formula-list">
+                    <li><code>A_v = V_out / V_in</code> — Voltage gain (dimensionless ratio)</li>
+                    <li><code>A_i = I_out / I_in</code> — Current gain</li>
+                    <li><code>A_p = P_out / P_in</code> — Power gain</li>
+                    <li><code>A_v(dB) = 20 × log₁₀(V_out / V_in)</code> — Voltage gain in decibels (dB)</li>
+                    <li><code>A_p(dB) = 10 × log₁₀(P_out / P_in)</code> — Power gain in decibels</li>
+                    <li>3 dB point: gain falls to 0.707 × maximum — defines the bandwidth of the amplifier.</li>
+                  </ul>
+                </div>
+
+                <h4>BJT Amplifier Configurations</h4>
+                <table class="comparison-table" aria-label="BJT Amplifier Configurations">
+                  <thead>
+                    <tr>
+                      <th scope="col">Configuration</th>
+                      <th scope="col">Common Emitter (CE)</th>
+                      <th scope="col">Common Base (CB)</th>
+                      <th scope="col">Common Collector (CC) / Emitter Follower</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Input terminal</td><td>Base</td><td>Emitter</td><td>Base</td></tr>
+                    <tr><td>Output terminal</td><td>Collector</td><td>Collector</td><td>Emitter</td></tr>
+                    <tr><td>Common terminal</td><td>Emitter</td><td>Base</td><td>Collector</td></tr>
+                    <tr><td>Voltage gain</td><td>High (inverted)</td><td>High (non-inverted)</td><td>≈1 (non-inverted)</td></tr>
+                    <tr><td>Current gain</td><td>High</td><td>&lt;1</td><td>Very high (β+1)</td></tr>
+                    <tr><td>Power gain</td><td>Highest</td><td>Medium</td><td>Medium</td></tr>
+                    <tr><td>Input impedance</td><td>Medium</td><td>Low</td><td>High</td></tr>
+                    <tr><td>Output impedance</td><td>High</td><td>High</td><td>Very low</td></tr>
+                    <tr><td>Phase shift</td><td>180° (inverted)</td><td>0°</td><td>0°</td></tr>
+                    <tr><td>Primary application</td><td>Voltage amplification</td><td>RF/high-frequency, current buffer</td><td>Impedance matching, buffer stage</td></tr>
+                  </tbody>
+                </table>
+
+                <h4>DC Biasing — Voltage Divider Bias</h4>
+                <p>The most stable BJT biasing method uses a voltage divider (R1, R2) at the base with an emitter resistor (RE). This provides <strong>Q-point stability</strong> against transistor parameter variations and temperature changes.</p>
+                <p>Q-point (Quiescent point): the DC operating point. For linear amplification, the Q-point is set in the middle of the active region so the signal can swing equally in both directions without clipping.</p>
+
+                <aside class="note-block" data-type="exam">
+                  <h4>Must Remember — CE Amplifier</h4>
+                  <p>Common Emitter is the workhorse amplifier configuration: high voltage gain, high power gain, medium input impedance. The output is 180° out of phase with the input. A bypass capacitor across RE (emitter bypass) restores AC gain while maintaining DC stability.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <!-- Frequency Response -->
+          <section class="topic-section" id="lec8-frequency-response" data-topic="frequency-response">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Amplifier Frequency Response &amp; Bandwidth</h3>
+              </summary>
+              <div class="topic-body">
+                <p>Amplifiers do not work equally well at all frequencies. The frequency range over which gain is within 3 dB of its midband value is called the <strong>bandwidth</strong>.</p>
+                <ul>
+                  <li><strong>Lower cutoff frequency (f_L):</strong> Set by coupling and bypass capacitors (C increases X_C at low frequencies, reducing gain).</li>
+                  <li><strong>Upper cutoff frequency (f_H):</strong> Set by internal transistor capacitances (Miller effect) and stray capacitances.</li>
+                  <li><strong>Bandwidth = f_H − f_L</strong></li>
+                  <li><strong>Gain-Bandwidth Product (GBW):</strong> For many amplifier types, A_v × BW = constant. Increasing gain reduces bandwidth.</li>
+                </ul>
+
+                <div class="formula-block">
+                  <code class="formula">f = 1 / (2π × R × C)</code>
+                  <p>This is the cutoff frequency of an RC network. Below this frequency, gain falls at −20 dB/decade (6 dB/octave).</p>
+                </div>
+
+                <aside class="note-block" data-type="exam">
+                  <h4>Capacitor Reactance Revisited</h4>
+                  <p>At the RC circuit's cutoff frequency, X_C = R. Below the cutoff, capacitors block signal (high X_C). Above the cutoff, capacitors are nearly a short circuit (low X_C). This determines how coupling and bypass capacitors affect amplifier frequency response.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <aside class="quick-summary" id="lec8-summary" data-lecture="8">
+            <h3>Quick Summary — Lecture 8</h3>
+            <ul>
+              <li>Amplifier gain: Av = Vout/Vin. In dB: Av(dB) = 20 log₁₀(Vout/Vin).</li>
+              <li>CE: highest gain, 180° phase inversion. Most common configuration.</li>
+              <li>CB: high gain, no phase shift, low input impedance. Best for RF.</li>
+              <li>CC (emitter follower): gain ≈ 1, no inversion, very low output impedance. Best for buffering.</li>
+              <li>Voltage divider biasing provides Q-point stability — essential for reliable analog circuits.</li>
+              <li>Bandwidth = f_H − f_L. For most amplifiers, Gain × Bandwidth = constant.</li>
+            </ul>
+          </aside>
+        </article>
+
+        <!-- ======================== LECTURE 9 ======================== -->
+        <article id="lecture-9" class="lecture" data-lecture-number="9" data-status="not-started">
+          <header class="lecture-header">
+            <div class="lecture-badge">Lecture 9</div>
+            <h2 class="lecture-title">Operational Amplifiers (Op-Amps)</h2>
+            <p class="lecture-description">The operational amplifier is the universal analog building block. Master inverting and non-inverting configurations, comparators, integrators, differentiators, and active filters.</p>
+          </header>
+
+          <!-- Op-Amp Basics -->
+          <section class="topic-section" id="lec9-opamp-basics" data-topic="opamp-basics">
+            <details open>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Operational Amplifier Fundamentals</h3>
+              </summary>
+              <div class="topic-body">
+                <p>An <strong>Operational Amplifier (Op-Amp)</strong> is a high-gain, direct-coupled differential amplifier with very high input impedance and very low output impedance. It amplifies the difference between its two input terminals. Named "operational" because it was originally designed to perform mathematical operations (add, subtract, integrate, differentiate) in analog computers.</p>
+
+                <h4>Op-Amp Terminals</h4>
+                <ul>
+                  <li><strong>Inverting input (−):</strong> Signal applied here appears inverted (180°) at output.</li>
+                  <li><strong>Non-inverting input (+):</strong> Signal applied here appears in phase at output.</li>
+                  <li><strong>Output:</strong> Single-ended output voltage.</li>
+                  <li><strong>Positive supply (V+):</strong> Typically +5 V to +18 V.</li>
+                  <li><strong>Negative supply (V−):</strong> Typically −5 V to −18 V (dual supply), or 0 V for single supply.</li>
+                </ul>
+
+                <h4>Ideal Op-Amp Characteristics</h4>
+                <table class="reference-table" aria-label="Ideal vs Real Op-Amp">
+                  <thead>
+                    <tr>
+                      <th scope="col">Parameter</th>
+                      <th scope="col">Ideal Value</th>
+                      <th scope="col">Typical Real Value (e.g., LM741)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Open-loop voltage gain (A_OL)</td><td>∞</td><td>200,000 (106 dB)</td></tr>
+                    <tr><td>Input impedance (Z_in)</td><td>∞</td><td>2 MΩ</td></tr>
+                    <tr><td>Output impedance (Z_out)</td><td>0</td><td>75 Ω</td></tr>
+                    <tr><td>Bandwidth</td><td>∞</td><td>1 MHz (Unity Gain Bandwidth)</td></tr>
+                    <tr><td>Input offset voltage</td><td>0 V</td><td>1–6 mV</td></tr>
+                    <tr><td>Common Mode Rejection Ratio (CMRR)</td><td>∞</td><td>90 dB typical</td></tr>
+                  </tbody>
+                </table>
+
+                <h4>Golden Rules of Op-Amp Analysis (Negative Feedback)</h4>
+                <ol>
+                  <li><strong>Rule 1 — Virtual Short:</strong> The voltage at the inverting input (V−) ≈ voltage at the non-inverting input (V+). The differential input voltage ≈ 0.</li>
+                  <li><strong>Rule 2 — Zero Input Current:</strong> No current flows into either input terminal (Z_in ≈ ∞).</li>
+                </ol>
+                <p>These two rules allow quick analysis of any op-amp circuit with negative feedback.</p>
+              </div>
+            </details>
+          </section>
+
+          <!-- Op-Amp Configurations -->
+          <section class="topic-section" id="lec9-configurations" data-topic="opamp-configurations">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">Op-Amp Circuit Configurations</h3>
+              </summary>
+              <div class="topic-body">
+                <table class="comparison-table" aria-label="Op-Amp Configurations">
+                  <thead>
+                    <tr>
+                      <th scope="col">Configuration</th>
+                      <th scope="col">Gain Formula</th>
+                      <th scope="col">Phase</th>
+                      <th scope="col">Key Feature</th>
+                      <th scope="col">Application</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Inverting Amplifier</td>
+                      <td>A_v = −R_f / R_in</td>
+                      <td>180° inversion</td>
+                      <td>Virtual ground at (−) input</td>
+                      <td>Signal inversion and gain, summing amplifier</td>
+                    </tr>
+                    <tr>
+                      <td>Non-Inverting Amplifier</td>
+                      <td>A_v = 1 + R_f / R₁</td>
+                      <td>0° (in phase)</td>
+                      <td>Very high input impedance</td>
+                      <td>Buffering, sensor interfaces</td>
+                    </tr>
+                    <tr>
+                      <td>Voltage Follower (Buffer)</td>
+                      <td>A_v = 1</td>
+                      <td>0°</td>
+                      <td>Very high Z_in, very low Z_out</td>
+                      <td>Impedance isolation, current drive</td>
+                    </tr>
+                    <tr>
+                      <td>Summing Amplifier</td>
+                      <td>V_out = −Rf × (V₁/R₁ + V₂/R₂ + …)</td>
+                      <td>180°</td>
+                      <td>Adds multiple input voltages</td>
+                      <td>Audio mixing, DAC output stage</td>
+                    </tr>
+                    <tr>
+                      <td>Difference Amplifier</td>
+                      <td>V_out = (Rf/R₁) × (V₂ − V₁)</td>
+                      <td>Varies</td>
+                      <td>Amplifies differential signal, rejects common mode</td>
+                      <td>Bridge sensors, instrumentation</td>
+                    </tr>
+                    <tr>
+                      <td>Integrator</td>
+                      <td>V_out = −1/(RC) ∫ V_in dt</td>
+                      <td>−90°</td>
+                      <td>Output = integral of input</td>
+                      <td>Waveform generation, control systems</td>
+                    </tr>
+                    <tr>
+                      <td>Differentiator</td>
+                      <td>V_out = −RC × dV_in/dt</td>
+                      <td>+90°</td>
+                      <td>Output = derivative of input</td>
+                      <td>Edge detection, rate-of-change measurement</td>
+                    </tr>
+                    <tr>
+                      <td>Comparator</td>
+                      <td>N/A (open loop)</td>
+                      <td>—</td>
+                      <td>Output goes HIGH or LOW based on which input is larger</td>
+                      <td>Zero-crossing detection, ADC, threshold detection</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <aside class="note-block" data-type="must-remember">
+                  <h4>Must Remember — Inverting Gain</h4>
+                  <p>For the inverting amplifier: A_v = −Rf / Rin. The negative sign means 180° phase inversion. If Rf = 10 kΩ and Rin = 1 kΩ, gain = −10 (output is 10× larger, inverted). To set any gain: choose Rin, then Rf = |A_v| × Rin.</p>
+                </aside>
+
+                <aside class="note-block" data-type="common-mistake">
+                  <h4>Frequently Confused — Comparator vs Op-Amp</h4>
+                  <p>A comparator is an op-amp running in open-loop (no feedback). Its output slams to the supply rail — it is NOT a linear amplifier. Using a general-purpose op-amp as a comparator is possible but slow; dedicated comparator ICs (e.g., LM393) are much faster and have open-collector outputs for easy interfacing with digital logic.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <aside class="quick-summary" id="lec9-summary" data-lecture="9">
+            <h3>Quick Summary — Lecture 9</h3>
+            <ul>
+              <li>Op-amp: differential amplifier. Amplifies (V+) − (V−). Very high gain in open loop.</li>
+              <li>Golden rules (with negative feedback): V+ ≈ V− (virtual short); no input current.</li>
+              <li>Inverting: Av = −Rf/Rin, 180° phase shift.</li>
+              <li>Non-inverting: Av = 1 + Rf/R₁, in phase, very high input impedance.</li>
+              <li>Voltage follower: Av = 1, perfect impedance buffer — connects high-impedance source to low-impedance load.</li>
+              <li>Comparator = op-amp with no feedback. Output is digital (HIGH or LOW), not linear.</li>
+            </ul>
+          </aside>
+        </article>
+
+        <!-- ======================== LECTURE 10 ======================== -->
+        <article id="lecture-10" class="lecture" data-lecture-number="10" data-status="not-started">
+          <header class="lecture-header">
+            <div class="lecture-badge">Lecture 10</div>
+            <h2 class="lecture-title">Integrated Circuits</h2>
+            <p class="lecture-description">A comprehensive look at integrated circuit categories, analog IC examples, and the practical application of common ICs including timers, voltage regulators, and analog signal processing chips.</p>
+          </header>
+
+          <!-- IC Families -->
+          <section class="topic-section" id="lec10-ic-types" data-topic="ic-types">
+            <details open>
+              <summary class="topic-summary">
+                <h3 class="topic-title">IC Categories &amp; Families</h3>
+              </summary>
+              <div class="topic-body">
+                <p>An IC contains many electronic components fabricated on a single silicon die using photolithographic manufacturing. Modern ICs achieve feature sizes below 10 nm.</p>
+
+                <h4>IC Classification by Signal Type</h4>
+                <table class="reference-table" aria-label="IC Types">
+                  <thead>
+                    <tr>
+                      <th scope="col">Category</th>
+                      <th scope="col">Function</th>
+                      <th scope="col">Common Examples</th>
+                      <th scope="col">Application Areas</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Analog ICs</td>
+                      <td>Process continuous signals</td>
+                      <td>LM741 (op-amp), LM358, LM386</td>
+                      <td>Audio, sensors, instrumentation</td>
+                    </tr>
+                    <tr>
+                      <td>Voltage Regulators</td>
+                      <td>Provide stable DC output</td>
+                      <td>LM7805, LM317, LM1117</td>
+                      <td>Power supplies, microcontroller power</td>
+                    </tr>
+                    <tr>
+                      <td>Timer ICs</td>
+                      <td>Generate timing signals, PWM, oscillation</td>
+                      <td>NE555, NE556</td>
+                      <td>Timers, oscillators, PWM motor control</td>
+                    </tr>
+                    <tr>
+                      <td>Comparator ICs</td>
+                      <td>Compare voltages, output digital result</td>
+                      <td>LM393, LM339</td>
+                      <td>Zero-crossing, window detection</td>
+                    </tr>
+                    <tr>
+                      <td>Digital Logic ICs</td>
+                      <td>Boolean logic operations</td>
+                      <td>74HC00 (NAND), 74HC04 (NOT), 74HC08 (AND)</td>
+                      <td>Digital circuits, microcontroller glue logic</td>
+                    </tr>
+                    <tr>
+                      <td>Microcontrollers</td>
+                      <td>Programmable compute + I/O + peripherals</td>
+                      <td>ATmega328 (Arduino), STM32, PIC</td>
+                      <td>Robotics, IoT, automation, consumer electronics</td>
+                    </tr>
+                    <tr>
+                      <td>ADC / DAC</td>
+                      <td>Convert between analog and digital signals</td>
+                      <td>MCP3204, DAC8563, built-in ADC on MCUs</td>
+                      <td>Data acquisition, audio, instrumentation</td>
+                    </tr>
+                    <tr>
+                      <td>Mixed-Signal ICs</td>
+                      <td>Combine analog and digital on same die</td>
+                      <td>Most modern microcontrollers</td>
+                      <td>IoT sensors, motor controllers</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <h4>The 555 Timer IC</h4>
+                <p>The <strong>NE555</strong> is one of the most versatile and widely used ICs ever produced. It operates in three modes:</p>
+                <ul>
+                  <li><strong>Astable mode:</strong> Free-running oscillator — output continuously alternates between HIGH and LOW. Frequency and duty cycle set by R1, R2, and C.
+                    <div class="formula-block">
+                      <code>f = 1.44 / ((R₁ + 2×R₂) × C)</code>
+                      <code>Duty Cycle = (R₁ + R₂) / (R₁ + 2×R₂) × 100%</code>
+                    </div>
+                  </li>
+                  <li><strong>Monostable mode:</strong> One-shot timer — produces a single pulse of defined duration when triggered.
+                    <div class="formula-block">
+                      <code>t = 1.1 × R × C</code>
+                    </div>
+                  </li>
+                  <li><strong>Bistable mode:</strong> SR flip-flop — set and reset pins control stable HIGH or LOW output.</li>
+                </ul>
+
+                <h4>LM7805 Voltage Regulator</h4>
+                <p>The LM7805 is a classic 3-terminal linear voltage regulator providing a stable +5 V output from any input voltage between 7–35 V. It requires input and output decoupling capacitors (0.1 µF ceramic, 0.33 µF and 1 µF minimum per datasheet). Maximum output current: 1 A. Dropout voltage: ~2 V minimum between input and output.</p>
+              </div>
+            </details>
+          </section>
+
+          <!-- IC Packaging -->
+          <section class="topic-section" id="lec10-packaging" data-topic="ic-packaging">
+            <details>
+              <summary class="topic-summary">
+                <h3 class="topic-title">IC Packaging &amp; Practical Handling</h3>
+              </summary>
+              <div class="topic-body">
+                <h4>Common IC Package Types</h4>
+                <table class="reference-table" aria-label="IC Packages">
+                  <thead>
+                    <tr>
+                      <th scope="col">Package</th>
+                      <th scope="col">Abbreviation</th>
+                      <th scope="col">Mounting Type</th>
+                      <th scope="col">Application</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Dual In-line Package</td><td>DIP</td><td>Through-hole (breadboard-friendly)</td><td>Prototyping, classic ICs (555, LM741)</td></tr>
+                    <tr><td>Small Outline IC</td><td>SOIC</td><td>Surface mount</td><td>Production circuits</td></tr>
+                    <tr><td>Thin Small Outline Package</td><td>TSOP</td><td>Surface mount</td><td>Memory ICs</td></tr>
+                    <tr><td>Quad Flat Package</td><td>QFP</td><td>Surface mount</td><td>Microcontrollers, DSPs</td></tr>
+                    <tr><td>Ball Grid Array</td><td>BGA</td><td>Surface mount (solder balls underneath)</td><td>CPUs, high-pin-count devices</td></tr>
+                    <tr><td>Transistor Outline</td><td>TO-92, TO-220, TO-247</td><td>Through-hole (power devices)</td><td>Transistors, regulators, MOSFETs</td></tr>
+                  </tbody>
+                </table>
+
+                <h4>Decoupling Best Practices</h4>
+                <p>Every IC power supply pin needs a <strong>decoupling capacitor</strong> placed as close as possible to the pin. Recommended: 100 nF ceramic (for high-frequency noise) in parallel with 10 µF electrolytic (for lower-frequency fluctuations). Decoupling prevents voltage spikes and digital noise from corrupting analog signals on the same board.</p>
+
+                <aside class="note-block" data-type="practical">
+                  <h4>Practical PCB Engineering</h4>
+                  <p>Never share ground return paths between high-current circuits (motors, LEDs, power converters) and sensitive analog circuits (op-amps, ADCs). Use a "star ground" topology or separate analog and digital ground planes connected at a single point to prevent ground loops and noise coupling.</p>
+                </aside>
+              </div>
+            </details>
+          </section>
+
+          <aside class="quick-summary" id="lec10-summary" data-lecture="10">
+            <h3>Quick Summary — Lecture 10</h3>
+            <ul>
+              <li>ICs pack thousands to billions of transistors on a single silicon chip.</li>
+              <li>Analog ICs: op-amps, regulators, timers. Digital ICs: logic gates, microcontrollers. Mixed-signal: ADC, DAC, MCU.</li>
+              <li>NE555 timer: astable (oscillator), monostable (one-shot), bistable (flip-flop). f = 1.44 / ((R₁+2R₂)×C) in astable.</li>
+              <li>LM7805: 5V linear regulator. Input 7–35V. Output 5V ±4%. Always add decoupling capacitors.</li>
+              <li>Always decouple IC power pins with 100 nF ceramic capacitor placed as close as possible to the pin.</li>
+              <li>DIP packages for prototyping; SMD (SOIC, QFP, BGA) for production.</li>
+            </ul>
+          </aside>
+        </article>
+
+      </section>
+      <!-- END SECTION 2 -->
+
+      <!-- ======================== FORMULA REFERENCE ======================== -->
+      <section id="formulas-reference" class="reference-section" aria-labelledby="formulas-heading">
+        <header class="section-header">
+          <h2 id="formulas-heading" class="section-title">Complete Formula Reference</h2>
+          <p class="section-intro">All essential formulas organized by topic for quick exam review.</p>
+        </header>
+
+        <article class="formula-group" id="formulas-basic">
+          <h3>Fundamental Electrical Formulas</h3>
+          <table class="reference-table" aria-label="Basic Electrical Formulas">
+            <thead>
+              <tr><th scope="col">Formula</th><th scope="col">Meaning</th><th scope="col">Units</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><code>V = I × R</code></td><td>Ohm's Law — voltage</td><td>V, A, Ω</td></tr>
+              <tr><td><code>I = V / R</code></td><td>Ohm's Law — current</td><td>A, V, Ω</td></tr>
+              <tr><td><code>R = V / I</code></td><td>Ohm's Law — resistance</td><td>Ω, V, A</td></tr>
+              <tr><td><code>P = V × I</code></td><td>Power</td><td>W, V, A</td></tr>
+              <tr><td><code>P = I² × R</code></td><td>Power (from current)</td><td>W, A, Ω</td></tr>
+              <tr><td><code>P = V² / R</code></td><td>Power (from voltage)</td><td>W, V, Ω</td></tr>
+              <tr><td><code>W = P × t</code></td><td>Energy = Power × Time</td><td>J, W, s</td></tr>
+              <tr><td><code>Q = I × t</code></td><td>Charge = Current × Time</td><td>C, A, s</td></tr>
+              <tr><td><code>V = W / Q</code></td><td>Voltage = Energy / Charge</td><td>V, J, C</td></tr>
+              <tr><td><code>G = 1 / R</code></td><td>Conductance</td><td>S (Siemens)</td></tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article class="formula-group" id="formulas-circuit">
+          <h3>Circuit Analysis Formulas</h3>
+          <table class="reference-table" aria-label="Circuit Analysis Formulas">
+            <thead>
+              <tr><th scope="col">Formula</th><th scope="col">Meaning</th><th scope="col">Application</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><code>R_series = R₁ + R₂ + R₃…</code></td><td>Total series resistance</td><td>Series circuits</td></tr>
+              <tr><td><code>1/R_parallel = 1/R₁ + 1/R₂…</code></td><td>Total parallel resistance</td><td>Parallel circuits</td></tr>
+              <tr><td><code>R_two_parallel = (R₁×R₂)/(R₁+R₂)</code></td><td>Two resistors in parallel</td><td>Quick calculation</td></tr>
+              <tr><td><code>V_x = V_s × R_x / R_total</code></td><td>Voltage divider</td><td>Series voltage sharing</td></tr>
+              <tr><td><code>I_x = I_total × R_other / (R₁+R₂)</code></td><td>Current divider</td><td>Parallel current sharing</td></tr>
+              <tr><td><code>ΣI = 0 at any node</code></td><td>KCL</td><td>Node analysis</td></tr>
+              <tr><td><code>ΣV = 0 in any loop</code></td><td>KVL</td><td>Mesh/loop analysis</td></tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article class="formula-group" id="formulas-reactive">
+          <h3>Reactive Component Formulas</h3>
+          <table class="reference-table" aria-label="Reactive Formulas">
+            <thead>
+              <tr><th scope="col">Formula</th><th scope="col">Meaning</th><th scope="col">Notes</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><code>X_C = 1 / (2πfC)</code></td><td>Capacitive reactance</td><td>Decreases with frequency. Unit: Ω</td></tr>
+              <tr><td><code>X_L = 2πfL</code></td><td>Inductive reactance</td><td>Increases with frequency. Unit: Ω</td></tr>
+              <tr><td><code>τ = RC</code></td><td>RC time constant</td><td>Time to charge to 63.2%</td></tr>
+              <tr><td><code>τ = L/R</code></td><td>RL time constant</td><td>Time for current to reach 63.2%</td></tr>
+              <tr><td><code>V_L = L × dI/dt</code></td><td>Inductor voltage</td><td>Opposes current change</td></tr>
+              <tr><td><code>E_C = ½CV²</code></td><td>Capacitor stored energy</td><td>Joules</td></tr>
+              <tr><td><code>E_L = ½LI²</code></td><td>Inductor stored energy</td><td>Joules</td></tr>
+              <tr><td><code>f_resonance = 1 / (2π√(LC))</code></td><td>LC resonant frequency</td><td>LC tank circuit</td></tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article class="formula-group" id="formulas-waveform">
+          <h3>Waveform &amp; AC Formulas</h3>
+          <table class="reference-table" aria-label="Waveform Formulas">
+            <thead>
+              <tr><th scope="col">Formula</th><th scope="col">Meaning</th><th scope="col">Notes</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><code>f = 1/T</code></td><td>Frequency from period</td><td>Hz, s</td></tr>
+              <tr><td><code>T = 1/f</code></td><td>Period from frequency</td><td>s, Hz</td></tr>
+              <tr><td><code>ω = 2πf</code></td><td>Angular frequency</td><td>rad/s</td></tr>
+              <tr><td><code>v(t) = V_peak × sin(ωt + φ)</code></td><td>Sinusoidal voltage</td><td>General expression</td></tr>
+              <tr><td><code>V_RMS = V_peak / √2 ≈ 0.707 × V_peak</code></td><td>RMS voltage</td><td>Sine waves only</td></tr>
+              <tr><td><code>Levels = 2ⁿ</code></td><td>ADC quantization levels</td><td>n = number of bits</td></tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article class="formula-group" id="formulas-transistor">
+          <h3>Transistor &amp; Amplifier Formulas</h3>
+          <table class="reference-table" aria-label="Transistor Formulas">
+            <thead>
+              <tr><th scope="col">Formula</th><th scope="col">Meaning</th><th scope="col">Notes</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><code>I_C = β × I_B</code></td><td>BJT collector current</td><td>β = hFE = DC current gain</td></tr>
+              <tr><td><code>I_E = I_C + I_B</code></td><td>BJT emitter current</td><td>KCL at transistor terminals</td></tr>
+              <tr><td><code>A_v(CE) ≈ −R_C / r_e</code></td><td>CE amplifier voltage gain</td><td>r_e = 26mV/I_C (small-signal emitter resistance)</td></tr>
+              <tr><td><code>A_v(inverting) = −R_f / R_in</code></td><td>Inverting op-amp gain</td><td>Negative = 180° phase shift</td></tr>
+              <tr><td><code>A_v(non-inv) = 1 + R_f / R₁</code></td><td>Non-inverting op-amp gain</td><td>Always ≥ 1</td></tr>
+              <tr><td><code>A_v(dB) = 20 × log₁₀(V_out/V_in)</code></td><td>Voltage gain in dB</td><td>3 dB = 0.707 ratio</td></tr>
+              <tr><td><code>R_LED = (V_supply − V_f) / I_f</code></td><td>LED series resistor</td><td>Always required</td></tr>
+              <tr><td><code>R_Zener = (V_supply − V_Z) / I_Z</code></td><td>Zener series resistor</td><td>Voltage regulation circuit</td></tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+
+      <!-- ======================== COMPARISON TABLES ======================== -->
+      <section id="comparison-tables" class="reference-section" aria-labelledby="comp-heading">
+        <header class="section-header">
+          <h2 id="comp-heading" class="section-title">Comparison Tables</h2>
+          <p class="section-intro">Side-by-side comparisons of frequently confused concepts and components.</p>
+        </header>
+
+        <article class="comparison-article" id="comp-ac-dc">
+          <h3>AC vs. DC</h3>
+          <table class="comparison-table" aria-label="AC vs DC">
+            <thead>
+              <tr><th scope="col">Property</th><th scope="col">DC (Direct Current)</th><th scope="col">AC (Alternating Current)</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Current direction</td><td>One direction only</td><td>Periodically reverses</td></tr>
+              <tr><td>Voltage</td><td>Constant</td><td>Varies sinusoidally</td></tr>
+              <tr><td>Sources</td><td>Batteries, rectified supplies, solar</td><td>Power stations, generators, wall outlets</td></tr>
+              <tr><td>Frequency</td><td>0 Hz (no frequency)</td><td>50 Hz (Europe/Asia) or 60 Hz (Americas)</td></tr>
+              <tr><td>Transmission</td><td>Inefficient over long distances</td><td>Very efficient at high voltage</td></tr>
+              <tr><td>Transformation</td><td>Needs DC-DC converter</td><td>Simple transformer steps up or down</td></tr>
+              <tr><td>Applications</td><td>Electronics, batteries, EVs</td><td>Power grid, household appliances, motors</td></tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article class="comparison-article" id="comp-series-parallel">
+          <h3>Series vs. Parallel Circuits</h3>
+          <table class="comparison-table" aria-label="Series vs Parallel">
+            <thead>
+              <tr><th scope="col">Property</th><th scope="col">Series Circuit</th><th scope="col">Parallel Circuit</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Current</td><td>Same through all components</td><td>Different through each branch</td></tr>
+              <tr><td>Voltage</td><td>Divides across components</td><td>Same across all branches</td></tr>
+              <tr><td>Total resistance</td><td>Sum: R = R₁ + R₂ + …</td><td>Less than smallest: 1/R = 1/R₁ + 1/R₂…</td></tr>
+              <tr><td>Failure effect</td><td>Break in any component stops all current</td><td>Other branches continue to operate</td></tr>
+              <tr><td>Christmas lights analogy</td><td>Old style — one dead bulb kills all</td><td>Modern style — one dead bulb doesn't affect others</td></tr>
+              <tr><td>Law used for analysis</td><td>KVL (voltage law)</td><td>KCL (current law)</td></tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article class="comparison-article" id="comp-bjt-mosfet">
+          <h3>BJT vs. MOSFET</h3>
+          <table class="comparison-table" aria-label="BJT vs MOSFET">
+            <thead>
+              <tr><th scope="col">Property</th><th scope="col">BJT</th><th scope="col">MOSFET</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Control mechanism</td><td>Current (IB controls IC)</td><td>Voltage (VGS controls channel)</td></tr>
+              <tr><td>Input impedance</td><td>Low–medium (kΩ)</td><td>Very high (GΩ)</td></tr>
+              <tr><td>Drive circuit complexity</td><td>Needs base current source</td><td>Simple — just voltage; no static current</td></tr>
+              <tr><td>Switching speed</td><td>Slower (charge storage in base)</td><td>Faster (majority carrier device)</td></tr>
+              <tr><td>Noise performance</td><td>Better at low frequencies</td><td>Better at very high frequencies</td></tr>
+              <tr><td>Power handling</td><td>Good</td><td>Excellent (power MOSFETs)</td></tr>
+              <tr><td>Best for</td><td>Low-noise audio, precision linear circuits</td><td>Digital logic, switching, power electronics</td></tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article class="comparison-article" id="comp-opamp-configs">
+          <h3>Op-Amp Configurations Summary</h3>
+          <table class="comparison-table" aria-label="Op-Amp Config Comparison">
+            <thead>
+              <tr><th scope="col">Config</th><th scope="col">Gain</th><th scope="col">Phase</th><th scope="col">Zin</th><th scope="col">Best Use</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Inverting</td><td>−Rf/Rin (can be &lt;1)</td><td>180°</td><td>= Rin</td><td>Precise gain, summing</td></tr>
+              <tr><td>Non-Inverting</td><td>1 + Rf/R₁ (always ≥1)</td><td>0°</td><td>Very high (GΩ)</td><td>Sensor interface, buffering</td></tr>
+              <tr><td>Voltage Follower</td><td>1 (unity)</td><td>0°</td><td>Very high (GΩ)</td><td>Impedance isolation</td></tr>
+              <tr><td>Summing</td><td>−Rf/Rn per input</td><td>180°</td><td>= Rn per input</td><td>Mixing, DAC</td></tr>
+              <tr><td>Differentiator</td><td>−jwRC</td><td>+90°</td><td>= 1/jwC</td><td>Edge detection</td></tr>
+              <tr><td>Integrator</td><td>−1/jwRC</td><td>−90°</td><td>High</td><td>Waveform shaping</td></tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+
+      <!-- ======================== SAFETY HUB ======================== -->
+      <section id="safety-hub" class="reference-section" aria-labelledby="safety-heading">
+        <header class="section-header">
+          <h2 id="safety-heading" class="section-title">Safety Hub</h2>
+          <p class="section-intro">Electronics safety is non-negotiable. Review these rules before every lab session.</p>
+        </header>
+
+        <article class="safety-article">
+          <h3>Electrical Safety Fundamentals</h3>
+          <ul>
+            <li>Current kills, not voltage — but high voltage can drive lethal current through the body. Mains voltage (120/230 V AC) is lethal. Treat all voltages above 50 V AC or 120 V DC as potentially lethal.</li>
+            <li>Always work with one hand when probing live circuits at dangerous voltages — keep the other hand behind your back or in your pocket to prevent current from flowing through your heart.</li>
+            <li>Always discharge large capacitors before working on a circuit that has been powered — they can hold dangerous voltages for minutes or hours after power removal.</li>
+            <li>Use insulated tools when working on live circuits. Never use bare metal tools.</li>
+            <li>Ensure proper earth (ground) connections on all mains-powered equipment.</li>
+            <li>Use a GFI (Ground Fault Interrupter) or RCD (Residual Current Device) outlet in any wet or outdoor environment.</li>
+          </ul>
+        </article>
+
+        <article class="safety-article">
+          <h3>Component-Specific Safety</h3>
+          <ul>
+            <li><strong>Capacitors:</strong> Discharge before handling. Reverse polarity causes rupture or explosion. Never exceed voltage rating.</li>
+            <li><strong>Inductors/Transformers:</strong> Inductive kickback can produce hundreds of volts. Always use flyback diodes on inductive loads.</li>
+            <li><strong>LEDs:</strong> Always use series resistor. Direct connection to supply destroys the LED instantly.</li>
+            <li><strong>ICs:</strong> ESD (Electrostatic Discharge) destroys CMOS and MOSFET gate oxide. Use ESD wrist strap and mat. Store in anti-static bags.</li>
+            <li><strong>Batteries:</strong> Short circuit causes extreme heat, fire, and explosion risk (especially lithium). Never short battery terminals. Do not overcharge. Use correct charger.</li>
+            <li><strong>Soldering:</strong> Iron reaches 350 °C — causes immediate severe burns. Use a holder. Work in ventilated area — flux fumes are harmful. Wash hands after using lead solder.</li>
+            <li><strong>Motors:</strong> Rotating machinery can cause serious injury. Keep clear of moving parts. DC series motor must never run without load.</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- ======================== TROUBLESHOOTING HUB ======================== -->
+      <section id="troubleshooting-hub" class="reference-section" aria-labelledby="troubleshoot-heading">
+        <header class="section-header">
+          <h2 id="troubleshoot-heading" class="section-title">Troubleshooting Hub</h2>
+          <p class="section-intro">Systematic fault-finding techniques for common circuit problems.</p>
+        </header>
+
+        <article class="troubleshoot-article">
+          <h3>General Troubleshooting Strategy</h3>
+          <ol>
+            <li><strong>Observe:</strong> Visual inspection first — look for burned components, bad solder joints, wrong component values or orientation, missing connections.</li>
+            <li><strong>Measure:</strong> Check supply voltages at all IC power pins. No supply voltage = nothing works. Simple but often overlooked.</li>
+            <li><strong>Divide and conquer:</strong> Use the block diagram to isolate the faulty stage. Inject a test signal at the input of each stage and measure the output — the stage with wrong output is the problem area.</li>
+            <li><strong>Replace and test:</strong> Substitute suspected bad components one at a time (never multiple simultaneously — you won't know which fixed it).</li>
+            <li><strong>Verify:</strong> After repair, re-test full functionality. Also test edge cases and stress conditions.</li>
+          </ol>
+        </article>
+
+        <article class="troubleshoot-article">
+          <h3>Common Fault Symptoms and Causes</h3>
+          <table class="reference-table" aria-label="Fault Guide">
+            <thead>
+              <tr><th scope="col">Symptom</th><th scope="col">Likely Cause</th><th scope="col">Test Procedure</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>No output, no current draw</td><td>Open fuse, broken wire, dead supply</td><td>Measure supply voltage first. Continuity test all connections.</td></tr>
+              <tr><td>Excessive current draw</td><td>Short circuit, reversed polarity capacitor, wrong component</td><td>Disconnect load stages one by one to isolate the short. Check polarity of all polarized components.</td></tr>
+              <tr><td>Output always high or always low (digital)</td><td>Stuck output, dead IC, missing pull-up/pull-down</td><td>Measure VCC at IC. Try replacing IC. Check all pull-up/pull-down resistors.</td></tr>
+              <tr><td>Oscillation / buzzing in audio</td><td>Ground loop, poor decoupling, feedback</td><td>Add 100nF decoupling to all IC supply pins. Check ground connections. Check for unintended feedback paths.</td></tr>
+              <tr><td>Circuit works intermittently</td><td>Cold solder joint, damaged component lead</td><td>Press/wiggle components while circuit runs. Reflow all suspicious solder joints.</td></tr>
+              <tr><td>Wrong gain in amplifier</td><td>Wrong resistor values, feedback resistor open</td><td>Measure actual resistor values in-circuit (power off, lift one leg). Check feedback network.</td></tr>
+              <tr><td>Transistor hot to touch</td><td>Incorrect biasing, short circuit, wrong transistor type</td><td>Measure VCE or VDS. Check datasheet for correct bias conditions.</td></tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+
+      <!-- ======================== EXAM NOTES ======================== -->
+      <section id="exam-notes" class="reference-section" aria-labelledby="exam-heading">
+        <header class="section-header">
+          <h2 id="exam-heading" class="section-title">Exam Preparation Notes</h2>
+          <p class="section-intro">Focused review for examination success. These are the highest-priority topics.</p>
+        </header>
+
+        <article class="exam-article" id="exam-must-know">
+          <h3>Must-Know Items for Every Exam</h3>
+          <ul>
+            <li>Ohm's Law in all three forms: V = IR, I = V/R, R = V/I.</li>
+            <li>Power formulas: P = VI = I²R = V²/R.</li>
+            <li>KCL: Sum of currents at any node = 0.</li>
+            <li>KVL: Sum of voltages in any closed loop = 0.</li>
+            <li>Voltage divider: Vx = Vs × Rx / Rtotal.</li>
+            <li>Current divider (2 resistors): I₁ = Itotal × R₂ / (R₁+R₂).</li>
+            <li>Series resistors add. Parallel conductances add.</li>
+            <li>Silicon diode Vf ≈ 0.7 V. Schottky ≈ 0.3 V.</li>
+            <li>BJT: IC = β × IB. β = hFE = DC current gain.</li>
+            <li>Inverting op-amp gain: Av = −Rf / Rin.</li>
+            <li>Non-inverting op-amp gain: Av = 1 + Rf / R₁.</li>
+            <li>LED resistor: R = (Vsupply − Vf) / If.</li>
+            <li>f = 1/T (frequency from period). T = 1/f.</li>
+            <li>V_RMS = Vpeak / √2 (sine waves only).</li>
+            <li>Xc = 1/(2πfC) — capacitor is a short at high frequency, open at DC.</li>
+          </ul>
+        </article>
+
+        <article class="exam-article" id="exam-confusions">
+          <h3>Frequently Confused Concepts</h3>
+          <table class="reference-table" aria-label="Frequently Confused Concepts">
+            <thead>
+              <tr><th scope="col">Concept A</th><th scope="col">Concept B</th><th scope="col">Key Difference</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Conventional current (I)</td><td>Electron flow</td><td>I flows + to −; electrons flow − to +. Always use conventional current in analysis.</td></tr>
+              <tr><td>Voltage (V)</td><td>Current (I)</td><td>V is the driving force (pressure). I is the result (flow). V causes I.</td></tr>
+              <tr><td>Resistance in series</td><td>Resistance in parallel</td><td>Series: R adds, shared current. Parallel: 1/R adds, shared voltage.</td></tr>
+              <tr><td>RMS voltage</td><td>Peak voltage</td><td>Vrms = Vpeak/√2. RMS = effective DC equivalent value for power. Peak = actual waveform maximum.</td></tr>
+              <tr><td>Op-amp open loop</td><td>Op-amp with feedback</td><td>Open loop: comparator behavior (saturates). With negative feedback: linear amplifier (controlled gain).</td></tr>
+              <tr><td>BJT active region</td><td>BJT saturation</td><td>Active = amplifying. Saturation = fully ON switch (VCE ≈ 0.2 V). Use active for amplifiers, saturation for switches.</td></tr>
+              <tr><td>Period (T)</td><td>Frequency (f)</td><td>T = time per cycle. f = cycles per second. f = 1/T. Higher f = shorter T.</td></tr>
+              <tr><td>Capacitor blocks DC</td><td>Inductor blocks AC</td><td>Xc = 0 at high f (shorts AC). XL = 0 at DC (shorts DC). They are frequency opposites.</td></tr>
+            </tbody>
+          </table>
+        </article>
+
+        <!-- Quiz Placeholder -->
+        <section class="quiz-section" id="quiz-area" data-quiz-ready="true" aria-labelledby="quiz-heading">
+          <h3 id="quiz-heading">Practice Quiz Area</h3>
+          <p class="quiz-description">Interactive quizzes will be available here. Use the questions below for self-assessment.</p>
+
+          <article class="quiz-question" data-question-id="q1" data-topic="ohms-law" data-difficulty="basic">
+            <h4>Q1. A resistor of 470 Ω is connected to a 9 V battery. What current flows through it?</h4>
+            <details>
+              <summary>Show Answer</summary>
+              <div class="answer-body">
+                <p>Using Ohm's Law: I = V / R = 9 / 470 = 0.0191 A ≈ 19.1 mA</p>
+              </div>
+            </details>
+          </article>
+
+          <article class="quiz-question" data-question-id="q2" data-topic="power" data-difficulty="basic">
+            <h4>Q2. A 100 Ω resistor has 5 V across it. What power does it dissipate?</h4>
+            <details>
+              <summary>Show Answer</summary>
+              <div class="answer-body">
+                <p>P = V² / R = 5² / 100 = 25 / 100 = 0.25 W = 250 mW</p>
+                <p>Verification: I = V/R = 5/100 = 0.05 A. P = I×V = 0.05 × 5 = 0.25 W ✓</p>
+              </div>
+            </details>
+          </article>
+
+          <article class="quiz-question" data-question-id="q3" data-topic="kcl" data-difficulty="intermediate">
+            <h4>Q3. At a node, currents entering are 4 A and 7 A. One current leaves at 6 A. What is the second leaving current?</h4>
+            <details>
+              <summary>Show Answer</summary>
+              <div class="answer-body">
+                <p>By KCL: ΣI_in = ΣI_out → 4 + 7 = 6 + I₂ → I₂ = 11 − 6 = 5 A</p>
+              </div>
+            </details>
+          </article>
+
+          <article class="quiz-question" data-question-id="q4" data-topic="opamp" data-difficulty="intermediate">
+            <h4>Q4. An inverting op-amp has Rin = 2 kΩ and Rf = 20 kΩ. What is the gain? If Vin = 0.5 V, what is Vout?</h4>
+            <details>
+              <summary>Show Answer</summary>
+              <div class="answer-body">
+                <p>Av = −Rf / Rin = −20,000 / 2,000 = −10</p>
+                <p>Vout = Av × Vin = −10 × 0.5 = −5 V (inverted)</p>
+              </div>
+            </details>
+          </article>
+
+          <article class="quiz-question" data-question-id="q5" data-topic="led" data-difficulty="basic">
+            <h4>Q5. Calculate the series resistor for a blue LED (Vf = 3.2 V, If = 20 mA) powered from 5 V.</h4>
+            <details>
+              <summary>Show Answer</summary>
+              <div class="answer-body">
+                <p>R = (Vsupply − Vf) / If = (5 − 3.2) / 0.020 = 1.8 / 0.020 = 90 Ω</p>
+                <p>Use next standard value: 100 Ω (gives slightly less current — safer for the LED).</p>
+              </div>
+            </details>
+          </article>
+        </section>
+      </section>
+
+    </main>
+    <!-- END MAIN CONTENT -->
+
+  </div>
+  <!-- END LAYOUT WRAPPER -->
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer id="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-icon" aria-hidden="true">⚡</span>
+        <span class="footer-title">Electronics Engineering Prep Hub</span>
+      </div>
+      <nav class="footer-nav" aria-label="Footer Navigation">
+        <ul>
+          <li><a href="#section-fundamentals">Fundamentals</a></li>
+          <li><a href="#section-analog">Analog Electronics</a></li>
+          <li><a href="#formulas-reference">Formulas</a></li>
+          <li><a href="#comparison-tables">Comparisons</a></li>
+          <li><a href="#safety-hub">Safety</a></li>
+          <li><a href="#exam-notes">Exam Notes</a></li>
+        </ul>
+      </nav>
+      <div class="footer-meta">
+        <p>Course: Fundamentals &amp; Analog Electronics | Instructor: Prof. Aliya Nurmukhanbetova | Spring 2026</p>
+        <p>Electronics Engineering Prep Hub — 10 Lectures | 2 Sections | Comprehensive Exam Preparation</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
